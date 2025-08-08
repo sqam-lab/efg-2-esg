@@ -1,0 +1,70 @@
+[
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - Open Product Catalog>",
+						"<Open Product Catalog - List Products>",
+						"<List Products - Select Product>",
+						"<Select Product - Show Product Details>",
+						"<Show Product Details - Open Product Catalog>",
+						"<Show Product Details - Add Product to Cart>",
+						"<Add Product to Cart - Open Product Catalog>",
+						"<Add Product to Cart - To Cart>",
+						"<Open Product Catalog - To Cart>",
+						"<To Cart - Show Cart Content>",
+						"<Show Cart Content - Remove Product>",
+						"<Remove Product - Show Cart Content>",
+						"<Show Cart Content - Proceed to Checkout>",
+						"<Proceed to Checkout - Select Payment Method>",
+						"<Select Payment Method - Select Credit Card>",
+						"<Select Credit Card - Proceed with Payment>",
+						"<Proceed with Payment - Invalid>",
+						"<Invalid - Select Payment Method>",
+						"<Invalid - Cancel Payment>",
+						"<Proceed with Payment - Valid>",
+						"<Valid - Cancel Payment>",
+						"<Valid - Process Order and Confirm>",
+						"<Cancel Payment - Proceed to Checkout>",
+						"<Process Order and Confirm - ]>",
+						"<Cancel Payment - ]>",
+						"<Open Product Catalog - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "bankAccount",
+		"eventPairs" : [
+						"<Select Payment Method - Select Bank Account>",
+						"<Select Bank Account - Proceed with Payment>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "eCoin",
+		"eventPairs" : [
+						"<Select Payment Method - Select E-Coins>",
+						"<Select E-Coins - Proceed with Payment>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "search",
+		"eventPairs" : [
+						"<List Products - Search>",
+						"<Search - List Search Results>",
+						"<List Search Results - Select Product>",
+						"<Show Product Details - Return to Search Results>",
+						"<Return to Search Results - List Search Results>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "payment",
+		"eventPairs" : [],
+		"events" : []
+	}
+]

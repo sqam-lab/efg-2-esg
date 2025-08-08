@@ -1,0 +1,84 @@
+digraph G {
+rankdir = LR
+label = "Daily Beacon";
+esg1_vertex2 -> esg1_vertex16;
+esg1_vertex2 -> esg1_vertex5;
+esg1_vertex3 -> esg1_vertex5;
+esg1_vertex5 -> esg1_vertex15;
+esg1_vertex5 -> esg1_vertex16;
+esg1_vertex5 -> esg1_vertex3;
+esg1_vertex6 -> esg1_vertex16;
+esg1_vertex6 -> esg1_vertex14;
+esg1_vertex6 -> esg1_vertex23;
+esg1_vertex6 -> esg1_vertex24;
+esg1_vertex7 -> esg1_vertex16;
+esg1_vertex7 -> esg1_vertex14;
+esg1_vertex7 -> esg1_vertex2;
+esg1_vertex8 -> esg1_vertex16;
+esg1_vertex8 -> esg1_vertex14;
+esg1_vertex8 -> esg1_vertex2;
+esg1_vertex9 -> esg1_vertex16;
+esg1_vertex9 -> esg1_vertex2;
+esg1_vertex9 -> esg1_vertex14;
+esg1_vertex10 -> esg1_vertex16;
+esg1_vertex10 -> esg1_vertex14;
+esg1_vertex10 -> esg1_vertex2;
+esg1_vertex11 -> esg1_vertex16;
+esg1_vertex11 -> esg1_vertex14;
+esg1_vertex11 -> esg1_vertex12;
+esg1_vertex12 -> esg1_vertex20;
+esg1_vertex12 -> esg1_vertex21;
+esg1_vertex12 -> esg1_vertex22;
+esg1_vertex13 -> esg1_vertex16;
+esg1_vertex13 -> esg1_vertex14;
+esg1_vertex13 -> esg1_vertex2;
+esg1_vertex14 -> esg1_vertex11;
+esg1_vertex14 -> esg1_vertex16;
+esg1_vertex14 -> esg1_vertex9;
+esg1_vertex14 -> esg1_vertex13;
+esg1_vertex14 -> esg1_vertex10;
+esg1_vertex14 -> esg1_vertex8;
+esg1_vertex14 -> esg1_vertex17;
+esg1_vertex14 -> esg1_vertex6;
+esg1_vertex14 -> esg1_vertex7;
+esg1_vertex15 -> esg1_vertex5;
+esg1_vertex16 -> esg1_vertex14;
+esg1_vertex16 -> esg1_vertex2;
+esg1_vertex16 -> esg1_vertex19;
+esg1_vertex17 -> esg1_vertex14;
+esg1_vertex17 -> esg1_vertex2;
+esg1_vertex17 -> esg1_vertex16;
+esg1_vertex18 -> esg1_vertex16;
+esg1_vertex20 -> esg1_vertex11;
+esg1_vertex21 -> esg1_vertex11;
+esg1_vertex22 -> esg1_vertex11;
+esg1_vertex23 -> esg1_vertex25;
+esg1_vertex23 -> esg1_vertex6;
+esg1_vertex24 -> esg1_vertex25;
+esg1_vertex24 -> esg1_vertex6;
+esg1_vertex25 -> esg1_vertex23;
+esg1_vertex25 -> esg1_vertex24;
+esg1_vertex2 [label = "Select Article"]
+esg1_vertex3 [label = "Save Article"]
+esg1_vertex5 [label = "Open Article"]
+esg1_vertex6 [label = "Podcasts Tab"]
+esg1_vertex7 [label = "City News Tab"]
+esg1_vertex8 [label = "Opinions Tab"]
+esg1_vertex9 [label = "Campus News Tab"]
+esg1_vertex10 [label = "Sports Tab"]
+esg1_vertex11 [label = "Notifications Tab"]
+esg1_vertex12 [label = "Select Notification Type"]
+esg1_vertex13 [label = "Weather Tab"]
+esg1_vertex14 [label = "Open Menu"]
+esg1_vertex15 [label = "Share Article"]
+esg1_vertex16 [label = "Open Home Screen"]
+esg1_vertex17 [label = "Open Saved Articles"]
+esg1_vertex18 [label = "["]
+esg1_vertex19 [label = "]"]
+esg1_vertex20 [label = "Email"]
+esg1_vertex21 [label = "SMS"]
+esg1_vertex22 [label = "Push"]
+esg1_vertex23 [label = "Google Podcasts"]
+esg1_vertex24 [label = "Apple Podcasts"]
+esg1_vertex25 [label = "Open Podcast"]
+}

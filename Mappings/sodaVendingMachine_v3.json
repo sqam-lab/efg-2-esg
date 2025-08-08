@@ -1,0 +1,86 @@
+[
+	{
+		"featureName" : "SodaVendingMachine",
+		"eventPairs" : [
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "ServeBeverage",
+		"eventPairs" : [
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "Purchase",
+		"eventPairs" : [
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "cancel",
+		"eventPairs" : [
+						"<cancel - return money>",
+						"<return money - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - prompt>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "free",
+		"eventPairs" : [
+						"<prompt - free>",
+						"<free - select>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "payEUR",
+		"eventPairs" : [
+						"<prompt - pay EUR>",
+						"<pay EUR - select>",
+						"<pay EUR - cancel>"	
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "payUSD",
+		"eventPairs" : [
+						"<prompt - pay USD>",
+						"<pay USD - select>",
+						"<pay USD - cancel>",
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "serveSoda",
+		"eventPairs" : [
+						"<select - serve soda>",
+						"<serve soda - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "serveTea",
+		"eventPairs" : [
+						"<select - serve tea>",
+						"<serve tea - ]>"
+						],
+		"events" : []
+	}
+]

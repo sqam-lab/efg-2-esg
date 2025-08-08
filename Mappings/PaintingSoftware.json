@@ -1,0 +1,172 @@
+[
+    {
+        "featureName" : "PaintingSoftware",
+		"eventPairs" : [
+ 
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "core",
+		"eventPairs" : [
+                        "<Edit Canvas - Draw>",
+                        "<Draw - Edit Canvas>",
+                        "<Edit Canvas - Change Cursor Color>",
+                        "<Change Cursor Color - Draw>",
+                        "<Edit Canvas - ]>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "OpenCanvas",
+		"eventPairs" : [
+
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "ExistingCanvas",
+		"eventPairs" : [
+                        "<[ - Open Existing Canvas>",
+                        "<Open Existing Canvas - Edit Canvas>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "NewCanvas",
+		"eventPairs" : [
+                        "<[ - Open New Canvas>",
+                        "<Open New Canvas - Edit Canvas>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "EditCanvas",
+		"eventPairs" : [
+
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "CopyAndPasteContent",
+		"eventPairs" : [
+                        "<Edit Canvas - Copy Content>",
+                        "<Copy Content - Edit Canvas>",
+                        "<Copy Content - Copy Content>",
+                        "<Copy Content - Paste Content>",
+                        "<Paste Content - Paste Content>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "CutAndPasteContent",
+		"eventPairs" : [
+                        "<Edit Canvas - Cut Content>",
+                        "<Cut Content - Edit Canvas>",
+                        "<Cut Content - Cut Content>",
+                        "<Cut Content - Paste Content>",
+                        "<Paste Content - Paste Content>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "DrawOptions",
+		"eventPairs" : [
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "FillObject",
+		"eventPairs" : [
+                        "<Draw - Select Area>",
+                        "<Select Area - Fill Object>",
+                        "<Fill Object - Select Area>",
+                        "<Fill Object - Draw>",
+                        "<Select Area - Draw>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "DrawShapes",
+		"eventPairs" : [
+                        "<Draw - Select Shape>",
+                        "<Select Shape - Draw Shapes>",
+                        "<Draw Shapes - Select Shape>",
+                        "<Draw Shapes - Draw>",
+                        "<Select Shape - Draw>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "InsertText",
+		"eventPairs" : [
+                        "<Draw - Select Textbox>",
+                        "<Select Textbox - Write Text>",
+                        "<Write Text - Select Textbox>",
+                        "<Write Text - Draw>",
+                        "<Select Textbox - Draw>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "DrawFreeHand",
+		"eventPairs" : [
+                        "<Draw - Select Pencil>",
+                        "<Select Pencil - Draw Free Hand>",
+                        "<Draw Free Hand - Select Pencil>",
+                        "<Draw Free Hand - Draw>",
+                        "<Select Pencil - Draw>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "EraseContent",
+		"eventPairs" : [
+                        "<Draw - Select Eraser>",
+                        "<Select Eraser - Erase Content>",
+                        "<Erase Content - Select Eraser>",
+                        "<Select Eraser - Draw>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "SaveCanvas",
+		"eventPairs" : [
+                        "<Save Canvas - Edit Canvas>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "SetFileName",
+		"eventPairs" : [
+                        "<Edit Canvas - Set Saved File Name>",
+                        "<Set Saved File Name - Set File Directory>",
+                        "<Set Saved File Name - Save Canvas>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "SetFileDirectory",
+		"eventPairs" : [
+                        "<Set File Directory - Set Saved File Name>",
+                        "<Set File Directory - Save Canvas>"
+						],
+		"events" : []
+    }
+]

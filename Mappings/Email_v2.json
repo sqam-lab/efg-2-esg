@@ -1,0 +1,79 @@
+[
+	{
+		"featureName" : "addressbook",
+		"eventPairs" : [
+						"<[ - create an address entry for a receiver>",
+						"<create an address entry for a receiver - enter receiver's email address>",
+						"<enter receiver's email address - enter alias email addresses of receiver>",
+						"<enter alias email addresses of receiver - ]>",
+						"<enter receiver's email address - get alias email addresses of receiver>",
+						"<get alias email addresses of receiver - send email>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "autoresponder",
+		"eventPairs" : [
+						"<[ - enter email autoresponse date interval>",
+						"<enter email autoresponse date interval - enter autoresponse email body>",
+						"<enter email autoresponse date interval - ]>",
+						"<[ - enter autoresponse email body>",
+						"<enter autoresponse email body - enter email autoresponse date interval>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - compose new email>",
+						"<compose new email - enter receiver's email address>",
+						"<compose new email - enter email subject>",
+						"<compose new email - enter email body>",
+						"<enter receiver's email address - enter receiver's email address>",
+						"<enter email subject - enter email subject>",
+						"<enter email body - enter email body>",
+						"<enter receiver's email address - enter email subject>",
+						"<enter receiver's email address - enter email body>",
+						"<enter email subject - enter email body>",
+						"<enter email subject - enter receiver's email address>",
+						"<enter email body - enter email subject>",
+						"<enter email body - enter receiver's email address>",
+						"<enter receiver's email address - send email>",
+						"<send email - ]>",
+						"<[ - open mailbox>",
+						"<open mailbox - select email>",
+						"<select email - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "encrypt",
+		"eventPairs" : [
+						"<enter receiver's email address - get receiver's public key>",
+						"<get receiver's public key - encrypt mail with receiver's public key>",
+						"<encrypt mail with receiver's public key - send email>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "forward",
+		"eventPairs" : [
+						"<select email - enter forward receiver's email address>",
+						"<enter forward receiver's email address - send email>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "sign",
+		"eventPairs" : [
+						"<enter receiver's email address - sign email>",
+						"<sign email - send email>"
+						],
+		"events" : []
+	}
+]

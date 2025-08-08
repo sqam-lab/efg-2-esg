@@ -1,0 +1,177 @@
+[
+	{
+		"featureName" : "DailyBeacon",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - Open Home Screen>",
+						"<Open Home Screen - ]>",
+						"<Open Home Screen - Open Menu>",
+						"<Open Menu - Open Home Screen>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SelectCategory",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+
+	{
+		"featureName" : "Notifications",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Sports",
+		"eventPairs" : [
+						"<Open Menu - Sports Tab>",
+						"<Sports Tab - Open Menu>",
+						"<Sports Tab - Select Article>",
+						"<Sports Tab - Open Home Screen>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Weather",
+		"eventPairs" : [
+						"<Open Menu - Weather Tab>",
+						"<Weather Tab - Open Menu>",
+						"<Weather Tab - Select Article>",
+						"<Weather Tab - Open Home Screen>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "Opinion",
+		"eventPairs" : [
+						"<Open Menu - Opinions Tab>",
+						"<Opinions Tab - Open Menu>",
+						"<Opinions Tab - Select Article>",
+						"<Opinions Tab - Open Home Screen>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "Podcasts",
+		"eventPairs" : [
+						"<Open Menu - Podcasts Tab>",
+						"<Podcasts Tab - Open Menu>",
+						"<Podcasts Tab - Open Home Screen>",
+						"<Podcasts Tab - Apple Podcasts>",
+						"<Podcasts Tab - Google Podcasts>",
+						"<Apple Podcasts - Podcasts Tab>",
+						"<Google Podcasts - Podcasts Tab>",
+						"<Apple Podcasts - Open Podcast>",
+						"<Google Podcasts - Open Podcast>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "CityNews",
+		"eventPairs" : [
+						"<Open Menu - City News Tab>",
+						"<City News Tab - Open Menu>",
+						"<City News Tab - Select Article>",
+						"<City News Tab - Open Home Screen>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "CampusNews",
+		"eventPairs" : [
+						"<Open Menu - Campus News Tab>",
+						"<Campus News Tab - Open Menu>",
+						"<Campus News Tab - Select Article>",
+						"<Campus News Tab - Open Home Screen>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "SelectArticle",
+		"eventPairs" : [
+						"<Open Home Screen - Select Article>",
+						"<Select Article - Open Article>",
+						"<Open Article - Open Home Screen>",
+						"<Select Article - Open Home Screen>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "SaveArticle",
+		"eventPairs" : [
+						"<Open Article - Save Article>",
+						"<Save Article - Open Article>",
+						"<Open Menu - Open Saved Articles>",
+						"<Open Saved Articles - Open Menu>",
+						"<Open Saved Articles - Open Home Screen>",
+						"<Open Saved Articles - Select Article>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "ShareArticle",
+		"eventPairs" : [
+						"<Open Article - Share Article>",
+						"<Share Article - Open Article>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "Email",
+		"eventPairs" : [
+						"<Open Menu - Notifications Tab>",
+						"<Notifications Tab - Open Menu>",
+						"<Notifications Tab - Select Notification Type>",
+						"<Select Notification Type - Email>",
+						"<Email - Notifications Tab>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "SMS",
+		"eventPairs" : [
+						"<Open Menu - Notifications Tab>",
+						"<Notifications Tab - Open Menu>",
+						"<Notifications Tab - Select Notification Type>",
+						"<Select Notification Type - SMS>",
+						"<SMS - Notifications Tab>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "Push",
+		"eventPairs" : [
+						"<Open Menu - Notifications Tab>",
+						"<Notifications Tab - Open Menu>",
+						"<Notifications Tab - Select Notification Type>",
+						"<Select Notification Type - Push>",
+						"<Push - Notifications Tab>"
+						],
+		"events" : []
+	}
+]

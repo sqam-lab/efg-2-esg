@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="showhiddenfeatures" value="true"/>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="SodaVendingMachine">
+			<and mandatory="true" name="core">
+				<or abstract="true" mandatory="true" name="ServeBeverage">
+					<feature name="serveSoda"/>
+					<feature name="serveTea"/>
+				</or>
+				<or abstract="true" mandatory="true" name="Purchase">
+					<feature name="payEUR"/>
+					<feature name="payUSD"/>
+					<feature name="free"/>
+				</or>
+				<feature name="cancel"/>
+			</and>
+		</and>
+	</struct>
+	<constraints>
+		<rule>
+			<imp>
+				<var>cancel</var>
+				<disj>
+					<var>payEUR</var>
+					<var>payUSD</var>
+				</disj>
+			</imp>
+		</rule>
+	</constraints>
+</featureModel>

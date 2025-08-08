@@ -1,0 +1,74 @@
+[
+	{
+		"featureName" : "cancel",
+		"eventPairs" : [
+						"<pay USD - cancel>",
+						"<pay EUR - cancel>",
+						"<cancel - return money>",
+						"<return money - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - prompt>",
+						"<prompt - free>",
+						"<prompt - pay USD>",
+						"<prompt - pay EUR>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "free",
+		"eventPairs" : [
+						"<prompt - free>",
+						"<free - select>",
+						"<select - serve tea>",
+						"<select - serve soda>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "payEUR",
+		"eventPairs" : [
+						"<prompt - pay EUR>",
+						"<pay EUR - select>",
+						"<select - serve tea>",
+						"<select - serve soda>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "payUSD",
+		"eventPairs" : [
+						"<prompt - pay USD>",
+						"<pay USD - select>",
+						"<select - serve tea>",
+						"<select - serve soda>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "serveSoda",
+		"eventPairs" : [
+						"<select - serve soda>",
+						"<serve soda - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "serveTea",
+		"eventPairs" : [
+						"<select - serve tea>",
+						"<serve tea - ]>"
+						],
+		"events" : []
+	}
+]

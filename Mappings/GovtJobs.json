@@ -1,0 +1,200 @@
+[
+    {
+        "featureName" : "GovtJobs",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "core",
+		"eventPairs" : [
+						"<[ - Home Screen>",
+                        "<Home Screen - Open Menu>",
+                        "<Open Menu - Exit App>",
+                        "<Exit App - ]>",
+                        "<Open Menu - Home Screen>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "SelectJobCategory",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Journals",
+		"eventPairs" : [
+						"<Home Screen - Journal Tab>",
+                        "<Journal Tab - Home Screen>",
+                        "<Journal Tab - List of Jobs>",
+                        "<List of Jobs - Journal Tab>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Cities",
+		"eventPairs" : [
+						"<Home Screen - Cities Tab>",
+                        "<Cities Tab - Home Screen>",
+                        "<Cities Tab - List of Jobs>",
+                        "<List of Jobs - Cities Tab>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Department",
+		"eventPairs" : [
+						"<Home Screen - Department Tab>",
+                        "<Department Tab - Home Screen>",
+                        "<Department Tab - List of Jobs>",
+                        "<List of Jobs - Department Tab>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "JobTypes",
+		"eventPairs" : [
+						"<Home Screen - Job Types Tab>",
+                        "<Job Types Tab - Home Screen>",
+                        "<Job Types Tab - List of Jobs>",
+                        "<List of Jobs - Job Types Tab>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "SelectJobListing",
+		"eventPairs" : [
+                        "<List of Jobs - Open Job Listing>",
+                        "<Open Job Listing - List of Jobs>",
+                        "<Favorites - List of Jobs>",
+                        "<List of Jobs - Favorites>",
+                        "<Favorites - Home Screen>",
+                        "<Home Screen - Favorites>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "ShareListing",
+		"eventPairs" : [
+                        "<Share Job Listing - Open Job Listing>",
+                        "<Open Job Listing - Share Job Listing>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "DownloadListing",
+		"eventPairs" : [
+                        "<Download Job Listing - Open Job Listing>",
+                        "<Open Job Listing - Download Job Listing>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "CommentOnJobListing",
+		"eventPairs" : [
+                        "<Comment on Job Listing - Open Job Listing>",
+                        "<Open Job Listing - Comment on Job Listing>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "FavoriteJobListing",
+		"eventPairs" : [
+                        "<Add to Favorites - Open Job Listing>",
+                        "<Open Job Listing - Add to Favorites>"
+						],
+		"events" : []
+    },
+    
+    {
+        "featureName" : "SearchJobListing",
+		"eventPairs" : [
+                        "<Search Job Listing - Home Screen>",
+                        "<Open Job Listing - Search Job Listing>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "TakeJobTest",
+		"eventPairs" : [
+                        "<Job Tests Tab - Home Screen>",
+                        "<Home Screen - Job Tests Tab>",
+                        "<Job Tests Tab - Science Tests>",
+                        "<Science Tests - Job Tests Tab>",
+                        "<Science Tests - Take Test>",
+                        "<Job Tests Tab - Language Tests>",
+                        "<Language Tests - Job Tests Tab>",
+                        "<Language Tests - Take Test>",
+                        "<Job Tests Tab - IQ Tests>",
+                        "<IQ Tests - Job Tests Tab>",
+                        "<IQ Tests - Take Test>",
+                        "<Job Tests Tab - Aptitude Tests>",
+                        "<Aptitude Tests - Job Tests Tab>",
+                        "<Aptitude Tests - Take Test>",
+                        "<Take Test - Job Tests Tab>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Search",
+		"eventPairs" : [
+                        "<Advanced Search - Home Screen>",
+                        "<Home Screen - Advanced Search>",
+                        "<Advanced Search - List of Jobs>",
+                        "<List of Jobs - Advanced Search>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "City",
+		"eventPairs" : [
+                        "<Advanced Search - City>",
+                        "<City - Advanced Search>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Departments",
+		"eventPairs" : [
+                        "<Advanced Search - Department>",
+                        "<Department - Advanced Search>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Type",
+		"eventPairs" : [
+                        "<Advanced Search - Type>",
+                        "<Type - Advanced Search>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Journal",
+		"eventPairs" : [
+                        "<Advanced Search - Journal>",
+                        "<Journal - Advanced Search>"
+						],
+		"events" : []
+    }
+]

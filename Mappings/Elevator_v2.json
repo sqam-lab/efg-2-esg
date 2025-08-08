@@ -1,0 +1,52 @@
+[
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - sense elevator call>",
+						"<sense elevator call - move to target floor>",
+						"<move to target floor - sense people leaving elevator>",
+						"<sense people leaving elevator - sense elevator empty>",
+						"<sense people leaving elevator - sense elevator not empty>",
+						"<[ - sense people entering elevator>",
+						"<sense people entering elevator - sense elevator not empty>",
+						"<sense elevator not empty - sense target floor button pressed>",
+						"<sense target floor button pressed - sense target floor button pressed>",
+						"<sense target floor button pressed - move to target floor>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "executiveFloor",
+		"eventPairs" : [
+						"<[ - sense elevator call from executive floor>",
+						"<sense elevator call from executive floor - move to executive floor>",
+						"<move to executive floor - sense people leaving elevator>",
+						"<sense elevator not empty - sense executive floor button pressed>",
+						"<sense executive floor button pressed - enter executive floor password>",
+						"<enter executive floor password - move to executive floor>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "overloaded",
+		"eventPairs" : [
+						"<sense increasing weight - ring overloaded alarm>",
+						"<ring overloaded alarm - sense people leaving elevator>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "weight",
+		"eventPairs" : [
+						"<sense elevator not empty - sense increasing weight>",
+						"<sense increasing weight - sense elevator not empty>",
+						"<sense people leaving elevator - sense decreasing weight>",
+						"<sense decreasing weight - sense people entering elevator>",
+						"<sense decreasing weight - sense elevator empty>"
+						],
+		"events" : []
+	}
+]

@@ -1,0 +1,205 @@
+[
+	{
+		"featureName" : "Core",
+		"eventPairs" : ["<[ - Turn on>",
+						"<Turn on - read keypad>",
+						"<read keypad - authentication successful>", 
+						"<read keypad - authentication not successful>", 
+						"<authentication successful - console output>", 
+						"<authentication not successful - console output>", 
+						"<console output - authentication successful>", 
+						"<console output - Turn off>", 
+						"<Turn off - ]>"],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "AuthenticationFingerprint",
+		"eventPairs" : ["<Turn on - read fingerprint>",
+						"<read fingerprint - authentication not successful>",
+						"<read fingerprint - authentication successful>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "AuthenticationRetina",
+		"eventPairs" : ["<Turn on - scan retina>",
+						"<scan retina - authentication not successful>",
+						"<scan retina - authentication successful>"
+						],
+		"events" : []
+	},
+	
+	
+	
+	{
+		"featureName" : "BlindsAutomatic",
+		"eventPairs" : ["<authentication successful - open blinds automatic>",
+						"<open blinds automatic - console output>",
+						"<authentication successful - close blinds automatic>",
+						"<close blinds automatic - console output>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "BlindsManual",
+		"eventPairs" : ["<authentication successful - open blinds manual>",
+						"<open blinds manual - console output>",
+						"<authentication successful - close blinds manual>",
+						"<close blinds manual - console output>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "BlinkersAutomatic",
+		"eventPairs" : ["<authentication successful - turn on blinkers automatic>",
+						"<turn on blinkers automatic - console output>",
+						"<authentication successful - turn off blinkers automatic>",
+						"<turn off blinkers automatic - console output>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "BlinkersManual",
+		"eventPairs" : ["<authentication successful - turn on blinkers manual>",
+						"<turn on blinkers manual - console output>",
+						"<authentication successful - turn off blinkers manual>",
+						"<turn off blinkers manual - console output>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "FireDetection",
+		"eventPairs" : ["<authentication successful - smoke detector activated>",
+						"<smoke detector activated - fire detected>",
+						"<fire detected - turn on fire sprinklers>",
+						"<turn on fire sprinklers - call fire department>",
+						"<call fire department - turn on siren automatic>",
+						"<authentication successful - turn off fire sprinklers>",
+						"<turn off fire sprinklers - console output>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "HouseIntrusionDetection",
+		"eventPairs" : ["<authentication successful - glass break sensor activated>",
+						"<glass break sensor activated - house intrusion detected>",
+						"<house intrusion detected - turn on siren automatic>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "InhouseLightAutomatic",
+		"eventPairs" : ["<authentication successful - turn on inhouse light automatic>",
+						"<turn on inhouse light automatic - console output>",
+						"<authentication successful - turn off inhouse light automatic>",
+						"<turn off inhouse light automatic - console output>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "InhouseLightManual",
+		"eventPairs" : ["<authentication successful - turn on inhouse light manual>",
+						"<turn on inhouse light manual - console output>",
+						"<authentication successful - turn off inhouse light manual>",
+						"<turn off inhouse light manual - console output>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "OutputviaInternet",
+		"eventPairs" : ["<console output - output via Internet>",
+						"<output via Internet - output via touchscreen>",
+						"<output via Internet - Turn off>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "OutputviaTouchscreen",
+		"eventPairs" : ["<console output - output via touchscreen>",
+						"<output via touchscreen - output via Internet>",
+						"<output via touchscreen - Turn off>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "PerimeterIntrusionDetection",
+		"eventPairs" : ["<authentication successful - camera activated>",
+						"<camera activated - perimeter intrusion detected>",
+						"<perimeter intrusion detected - turn on blinkers automatic>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "PresenceDetection",
+		"eventPairs" : ["<authentication successful - motion detector activated>",
+						"<motion detector activated - presence detected>",
+						"<presence detected - daylight detected>",
+						"<daylight detected - open blinds automatic>",
+						"<presence detected - daylight not detected>",
+						"<daylight not detected - turn on inhouse light automatic>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "SirenAutomatic",
+		"eventPairs" : ["<authentication successful - turn on siren automatic>",
+						"<turn on siren automatic - console output>",
+						"<authentication successful - turn off siren automatic>",
+						"<turn off siren automatic - console output>"
+						],
+		"events" : []
+	},
+	{
+		"featureName" : "SirenManual",
+		"eventPairs" : ["<authentication successful - turn on siren manual>",
+						"<turn on siren manual - console output>",
+						"<authentication successful - turn off siren manual>",
+						"<turn off siren manual - console output>"
+						],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "LightManagement",
+		"eventPairs" : [],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "Alarm",
+		"eventPairs" : [],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "BlindsManagement",
+		"eventPairs" : [],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "UI",
+		"eventPairs" : [],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "AuthenticationDevice",
+		"eventPairs" : [],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "IntrusionDetection",
+		"eventPairs" : [],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "BlinkersManagement",
+		"eventPairs" : [],
+		"events" : []
+	}
+]

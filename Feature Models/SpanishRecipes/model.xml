@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="Spanish_Recipies">
+			<and mandatory="true" name="core">
+				<and mandatory="true" name="OpenRecipe">
+					<feature name="PrintRecipe"/>
+					<feature name="AddRemoveIngredientsFromShoppingCartThroughRecipe"/>
+					<feature name="ViewPhotoOfRecipe"/>
+				</and>
+				<or abstract="true" name="FilterRecipies">
+					<graphics key="collapsed" value="false"/>
+					<and name="Course">
+						<feature name="Desserts"/>
+						<feature name="Entrees"/>
+						<feature name="Appetizers"/>
+					</and>
+					<and name="Taste">
+						<feature name="Sweet"/>
+						<feature name="Spicy"/>
+						<feature name="Sour"/>
+					</and>
+					<and name="CookingType">
+						<feature name="Frying"/>
+						<feature name="Boiling"/>
+						<feature name="Baking"/>
+					</and>
+				</or>
+				<feature mandatory="true" name="ShoppingCart"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>

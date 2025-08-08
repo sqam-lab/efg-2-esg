@@ -1,0 +1,114 @@
+[
+	{
+		"featureName" : "cancelDeposit",
+		"eventPairs" : [
+						"<select deposit - cancel deposit>",
+						"<cancel deposit - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "cancelWithdraw",
+		"eventPairs" : [
+						"<select withdraw - cancel withdraw>",
+						"<cancel withdraw - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - get balance>",
+						"<get balance - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "credit",
+		"eventPairs" : [
+						"<[ - enter a credit amount>",
+						"<enter a credit amount - confirm credit approved>",
+						"<confirm credit approved - ]>",
+						"<enter a credit amount - confirm credit disapproved>",
+						"<confirm credit disapproved - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "dailyLimit",
+		"eventPairs" : [
+						"<[ - enter daily withdraw limit>",
+						"<enter daily withdraw limit - enter daily withdraw limit>",
+						"<enter daily withdraw limit - ]>",
+						"<enter withdraw amount - confirm daily limit excess>",
+						"<confirm daily limit excess - enter withdraw amount>",
+						"<confirm daily limit excess - cancel withdraw>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "deposit",
+		"eventPairs" : [
+						"<[ - select deposit>",
+						"<get balance - select deposit>",
+						"<select deposit - enter deposit amount>",
+						"<enter deposit amount - put money>",
+						"<put money - get balance>",
+						"<put money - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "interest",
+		"eventPairs" : [
+						"<[ - enter an interest rate>",
+						"<enter an interest rate - confirm interest rate approved>",
+						"<confirm interest rate approved - ]>",
+						"<enter an interest rate - confirm interest rate disapproved>",
+						"<confirm interest rate disapproved - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "interestEstimation",
+		"eventPairs" : [
+						"<confirm interest rate approved - enter number of days>",
+						"<enter number of days - confirm estimated interest>",
+						"<confirm estimated interest - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "overdraft",
+		"eventPairs" : [
+						"<[ - enter overdraft amount>",
+						"<enter overdraft amount - confirm overdraft approved>",
+						"<enter overdraft amount - confirm overdraft disapproved>",
+						"<enter withdraw amount - confirm overdraft amount excess>",
+						"<confirm overdraft amount excess - enter withdraw amount>",
+						"<confirm overdraft amount excess - cancel withdraw>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "withdraw",
+		"eventPairs" : [
+						"<[ - select withdraw>",
+						"<get balance - select withdraw>",
+						"<select withdraw - enter withdraw amount>",
+						"<enter withdraw amount - take money>",
+						"<take money - get balance>",
+						"<take money - ]>"
+						],
+		"events" : []
+	}
+]

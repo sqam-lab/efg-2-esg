@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="SmartHome">
+			<and name="Core">
+				<and mandatory="true" name="Light Management">
+					<feature mandatory="true" name="Inhouse Light Manual"/>
+					<feature name="Inhouse Light Automatic"/>
+				</and>
+				<and name="Blinds Management">
+					<feature mandatory="true" name="Blinds Manual"/>
+					<feature name="Blinds Automatic"/>
+				</and>
+				<and name="Alarm">
+					<feature mandatory="true" name="Siren Manual"/>
+					<feature name="Siren Automatic"/>
+				</and>
+				<and name="UI">
+					<feature name="Output via Touchscreen"/>
+					<feature name="Output via Internet"/>
+				</and>
+				<and name="Blinkers Management">
+					<feature mandatory="true" name="Blinkers Manual"/>
+					<feature name="Blinkers Automatic"/>
+				</and>
+				<or name="Intrusion Detection">
+					<feature name="Perimeter Intrusion Detection"/>
+					<feature name="House Intrusion Detection"/>
+				</or>
+				<feature name="Presence Detection"/>
+				<feature name="Fire Detection"/>
+				<or mandatory="true" name="AuthenticationDevice">
+					<feature name="Authentication Fingerprint"/>
+					<feature name="Authentication Retina"/>
+				</or>
+			</and>
+		</and>
+	</struct>
+	<constraints>
+		<rule>
+			<imp>
+				<var>Presence Detection</var>
+				<var>Inhouse Light Automatic</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Fire Detection</var>
+				<var>Siren Automatic</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>House Intrusion Detection</var>
+				<var>Siren Automatic</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>Perimeter Intrusion Detection</var>
+				<var>Blinkers Automatic</var>
+			</imp>
+		</rule>
+	</constraints>
+</featureModel>

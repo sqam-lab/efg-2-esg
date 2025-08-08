@@ -1,0 +1,209 @@
+[
+    {
+        "featureName" : "SpanishRecipies",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "core",
+		"eventPairs" : [
+						"<[ - Open Home Screen>",
+                        "<Open Home Screen - View All Recipes>",
+                        "<View All Recipes - Open Home Screen>",
+                        "<View All Recipes - Open Menu>",
+                        "<Open Menu - View All Recipes>",
+                        "<Open Home Screen - Open Menu>",
+                        "<Open Menu - Open Home Screen>",
+                        "<Open Menu - Add Recipe>",
+                        "<Add Recipe - Open Menu>",
+                        "<Open Menu - View Cooking Tips>",
+                        "<View Cooking Tips - Open Menu>",
+                        "<Open Menu - Calculate BMI>",
+                        "<Calculate BMI - Open Menu>",
+                        "<Open Menu - Sign In>",
+                        "<Sign In - Open Menu>",
+                        "<Open Menu - ]>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "OpenRecipe",
+		"eventPairs" : [
+						"<View All Recipes - Open Recipe>",
+                        "<View Filtered Recipe List - Open Recipe>",
+                        "<Open Recipe - View All Recipes>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "PrintRecipe",
+		"eventPairs" : [
+						"<Open Recipe - Print Recipe>",
+                        "<Print Recipe - Open Recipe>"
+						],
+		"events" : []
+    },
+    
+    {
+        "featureName" : "AddRemoveIngredientsFromShoppingCartThroughRecipe",
+		"eventPairs" : [
+						"<Open Recipe - Add Ingredients to Shopping Cart from Recipe>",
+                        "<Add Ingredients to Shopping Cart from Recipe - Open Recipe>",
+                        "<Open Recipe - Remove Ingredients from Shopping Cart from Recipe>",
+                        "<Remove Ingredients from Shopping Cart from Recipe - Open Recipe>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "ViewPhotoOfRecipe",
+		"eventPairs" : [
+						"<Open Recipe - View Photo of Recipe>",
+                        "<View Photo of Recipe - Open Recipe>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "FilterRecipies",
+		"eventPairs" : [
+            
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Course",
+		"eventPairs" : [
+                        "<Open Menu - View Course Selection>",
+                        "<View Course Selection - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Desserts",
+		"eventPairs" : [
+                        "<View Desserts - View Filtered Recipe List>",
+                        "<View Course Selection - View Desserts>",
+                        "<View Filtered Recipe List - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Entrees",
+		"eventPairs" : [
+                        "<View Entrees - View Filtered Recipe List>",
+                        "<View Course Selection - View Entrees>",
+                        "<View Filtered Recipe List - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Appetizers",
+		"eventPairs" : [
+                        "<View Appetizers - View Filtered Recipe List>",
+                        "<View Course Selection - View Appetizers>",
+                        "<View Filtered Recipe List - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Taste",
+		"eventPairs" : [
+                        "<View Taste Selection - Open Menu>",
+                        "<Open Menu - View Taste Selection>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Spicy",
+		"eventPairs" : [
+                        "<View Spicy Recipes - View Filtered Recipe List>",
+                        "<View Taste Selection - View Spicy Recipes>",
+                        "<View Filtered Recipe List - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Sweet",
+		"eventPairs" : [
+                        "<View Sweet Recipes - View Filtered Recipe List>",
+                        "<View Taste Selection - View Sweet Recipes>",
+                        "<View Filtered Recipe List - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Sour",
+		"eventPairs" : [
+                        "<View Sour Recipes - View Filtered Recipe List>",
+                        "<View Taste Selection - View Sour Recipes>",
+                        "<View Filtered Recipe List - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "CookingType",
+		"eventPairs" : [
+                        "<Open Menu - View Cooking Type Selection>",
+                        "<View Cooking Type Selection - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Frying",
+		"eventPairs" : [
+                        "<View Frying Recipes - View Filtered Recipe List>",
+                        "<View Cooking Type Selection - View Frying Recipes>",
+                        "<View Filtered Recipe List - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Boiling",
+		"eventPairs" : [
+                        "<View Boiling Recipes - View Filtered Recipe List>",
+                        "<View Cooking Type Selection - View Boiling Recipes>",
+                        "<View Filtered Recipe List - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "Baking",
+		"eventPairs" : [
+                        "<View Baking Recipes - View Filtered Recipe List>",
+                        "<View Cooking Type Selection - View Baking Recipes>",
+                        "<View Filtered Recipe List - Open Menu>"
+						],
+		"events" : []
+    },
+
+    {
+        "featureName" : "ShoppingCart",
+		"eventPairs" : [
+						"<Open Menu - View Shopping Cart>",
+                        "<View Shopping Cart - Open Menu>",
+                        "<View Shopping Cart - Add Ingredients to Shopping Cart>",
+                        "<Add Ingredients to Shopping Cart - View Shopping Cart>",
+                        "<View Shopping Cart - Remove Ingredients from Shopping Cart>",
+                        "<Remove Ingredients from Shopping Cart - View Shopping Cart>"
+						],
+		"events" : []
+    }
+]
