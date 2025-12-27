@@ -1,0 +1,222 @@
+[
+	{
+		"featureName" : "HospitalPMS",
+		"eventPairs" : [
+						
+		],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+			"<[ - Open Monitoring Dashboard>",
+			"<Open Monitoring Dashboard - Select Patient>",
+			"<Start Session - Evaluate Vitals>",
+			"<Evaluate Vitals - Open Patient EHR>",
+			"<Open Patient EHR - Write Vitals to EHR>",
+			"<Write Vitals to EHR - Log Event Audit>",
+			"<Log Event Audit - Stop Session>",
+			"<Stop Session - ]>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MonitoringMode",
+		"eventPairs" : [
+						
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "BedsideMonitoring",
+		"eventPairs" : [
+			"<Select Patient - Select Bedside Monitor>",
+			"<Select Bedside Monitor - Start Session>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "RemoteMonitoring",
+		"eventPairs" : [
+			"<Select Patient - Select Remote Monitor>",
+			"<Select Remote Monitor - Encrypt Transmission>",
+			"<Encrypt Transmission - Start Session>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "VitalsTracked",
+		"eventPairs" : [
+						
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "HeartRateTracking",
+		"eventPairs" : [
+			"<Start Session - Read Heart Rate>",
+			"<Read Heart Rate - Evaluate Vitals>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "BloodPressureTracking",
+		"eventPairs" : [
+			"<Start Session - Read Blood Pressure>",
+			"<Read Blood Pressure - Evaluate Vitals>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SpO2Tracking",
+		"eventPairs" : [
+			"<Start Session - Read SpO2>",
+			"<Read SpO2 - Evaluate Vitals>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "RespiratoryRateTracking",
+		"eventPairs" : [
+			"<Start Session - Read Respiratory Rate>",
+			"<Read Respiratory Rate - Evaluate Vitals>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AlertChannel",
+		"eventPairs" : [
+						
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "LocalAudibleAlert",
+		"eventPairs" : [
+			"<Evaluate Vitals - Trigger Alert>",
+			"<Trigger Alert - Acknowledge Alert>",
+			"<Acknowledge Alert - Evaluate Vitals>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "NursePagerAlert",
+		"eventPairs" : [
+			"<Evaluate Vitals - Trigger Alert>",
+			"<Trigger Alert - Escalate to Rapid Response>",
+			"<Escalate to Rapid Response - Log Event Audit>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MobilePushAlert",
+		"eventPairs" : [
+			"<Evaluate Vitals - Notify Remote Doctor>",
+			"<Notify Remote Doctor - Log Event Audit>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "EscalationPolicy",
+		"eventPairs" : [
+						
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "StandardEscalation",
+		"eventPairs" : [
+			"<Trigger Alert - Escalate to Rapid Response>",
+			"<Escalate to Rapid Response - Log Event Audit>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "EmergencyEscalation",
+		"eventPairs" : [
+			"<Trigger Alert - Escalate to Code Blue>",
+			"<Escalate to Code Blue - Log Event Audit>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "EHRIntegration",
+		"eventPairs" : [
+			"<Evaluate Vitals - Open Patient EHR>",
+			"<Open Patient EHR - Write Vitals to EHR>",
+			"<Write Vitals to EHR - Log Event Audit>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "RemoteDoctorAccess",
+		"eventPairs" : [
+			"<Evaluate Vitals - Notify Remote Doctor>",
+			"<Select Remote Monitor - Encrypt Transmission>",
+			"<Encrypt Transmission - Notify Remote Doctor>",
+			"<Notify Remote Doctor - Decrypt Data>",
+			"<Decrypt Data - Open Patient EHR>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "DataEncryption",
+		"eventPairs" : [
+			"<Select Remote Monitor - Encrypt Transmission>",
+			"<Encrypt Transmission - Start Session>",
+			"<Encrypt Transmission - Notify Remote Doctor>",
+			"<Notify Remote Doctor - Decrypt Data>",
+			"<Decrypt Data - Open Patient EHR>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "TrendAnalysis",
+		"eventPairs" : [
+			"<Open Monitoring Dashboard - Open Trend Charts>",
+			"<Open Trend Charts - Adjust Alert Thresholds>",
+			"<Adjust Alert Thresholds - Open Monitoring Dashboard>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AlertThresholdConfiguration",
+		"eventPairs" : [
+			"<Open Trend Charts - Adjust Alert Thresholds>",
+			"<Adjust Alert Thresholds - Open Monitoring Dashboard>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AuditLogging",
+		"eventPairs" : [
+			"<Escalate to Rapid Response - Log Event Audit>",
+			"<Escalate to Code Blue - Log Event Audit>",
+			"<Notify Remote Doctor - Log Event Audit>",
+			"<Write Vitals to EHR - Log Event Audit>"
+		],
+		"events" : []
+	}
+]

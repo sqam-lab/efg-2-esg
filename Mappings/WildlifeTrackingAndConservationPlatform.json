@@ -1,0 +1,193 @@
+[
+	{
+		"featureName" : "WildlifePlatform",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - Open Dashboard>",
+						"<Open Dashboard - ]>",
+						"<Open Dashboard - Select Reserve>",
+						"<Select Reserve - View Map>",
+						"<View Map - Open Dashboard>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "TrackingMode",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "DroneTracking",
+		"eventPairs" : [
+						"<Open Dashboard - Switch to Drone Tracking>",
+						"<Switch to Drone Tracking - Start Live GPS>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "CollarTracking",
+		"eventPairs" : [
+						"<Open Dashboard - Switch to Collar Tracking>",
+						"<Switch to Collar Tracking - Start Live GPS>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "CameraTrapTracking",
+		"eventPairs" : [
+						"<Open Dashboard - Switch to Camera Trap Tracking>",
+						"<Switch to Camera Trap Tracking - Species Identification from Camera>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Visualization",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "HeatmapView",
+		"eventPairs" : [
+						"<Open Dashboard - Open Heatmap View>",
+						"<View Map - Open Heatmap View>",
+						"<Open Heatmap View - Open Dashboard>",
+						"<Open Heatmap View - View Map>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "TimeSeriesView",
+		"eventPairs" : [
+						"<Open Dashboard - Open Time Series View>",
+						"<View Map - Open Time Series View>",
+						"<Open Time Series View - Open Dashboard>",
+						"<Open Time Series View - View Map>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SensorHealthView",
+		"eventPairs" : [
+						"<Open Dashboard - Open Sensor Health View>",
+						"<Open Sensor Health View - Open Dashboard>",
+						"<Start Live GPS - Open Sensor Health View>",
+						"<Environmental Alert Triggered - Open Sensor Health View>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Alerts",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "PoachingAlerts",
+		"eventPairs" : [
+						"<Configure Alert Rules - Poaching Alert Triggered>",
+						"<Poaching Alert Triggered - Acknowledge Alert>",
+						"<Acknowledge Alert - Open Dashboard>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "EnvironmentalAlerts",
+		"eventPairs" : [
+						"<Configure Alert Rules - Environmental Alert Triggered>",
+						"<Environmental Alert Triggered - Acknowledge Alert>",
+						"<Acknowledge Alert - Open Dashboard>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "OpenDashboard",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AnimalProfile",
+		"eventPairs" : [
+						"<Open Animal List - Open Animal Profile>",
+						"<Open Animal Profile - Open Animal List>",
+						"<Species Identification from Camera - Open Animal Profile>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MigrationPrediction",
+		"eventPairs" : [
+						"<Open Dashboard - Open Migration Analysis>",
+						"<Open Migration Analysis - Run Migration Prediction>",
+						"<Run Migration Prediction - Open Dashboard>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SpeciesIdentification",
+		"eventPairs" : [
+						"<Open Dashboard - Species Identification from Camera>",
+						"<Species Identification from Camera - Open Animal Profile>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "PatrolPlanning",
+		"eventPairs" : [
+						"<Open Dashboard - Open Patrol Route View>",
+						"<Open Patrol Route View - Assign Patrol Route>",
+						"<Assign Patrol Route - Confirm Patrol Assignment>",
+						"<Confirm Patrol Assignment - Open Patrol Route View>",
+						"<Open Patrol Route View - Open Dashboard>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "DataExport",
+		"eventPairs" : [
+						"<Open Dashboard - Request Data Export>",
+						"<Request Data Export - Open Dashboard>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "GPSLiveTracking",
+		"eventPairs" : [
+						"<Open Animal Profile - Start Live GPS>",
+						"<Start Live GPS - Stop Live GPS>",
+						"<Stop Live GPS - Open Animal Profile>"
+						],
+		"events" : []
+	}
+]

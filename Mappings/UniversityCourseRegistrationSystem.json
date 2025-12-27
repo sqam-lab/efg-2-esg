@@ -1,0 +1,167 @@
+[
+    {
+        "featureName" : "CourseRegistrationSystem",
+        "eventPairs" : [],
+        "events" : []
+    },
+
+    {
+        "featureName" : "Core",
+        "eventPairs" : [
+            "<[ - Open Portal>",
+            "<Open Portal - Student Login>",
+            "<Student Login - Logout>",
+            "<Logout - ]>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "Authentication",
+        "eventPairs" : [
+            "<Open Portal - Student Login>",
+            "<Student Login - Logout>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "CourseSelection",
+        "eventPairs" : [
+            "<Student Login - Search Course>",
+            "<View Degree Plan - Search Course>",
+            "<Search Course - View Course Details>",
+            "<View Course Details - Add Course to Cart>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "Enrollment",
+        "eventPairs" : [
+            "<Add Course to Cart - Check Prerequisites>",
+            "<Check Prerequisites - Enroll in Course>",
+            "<Enroll in Course - View Schedule>",
+            "<Enroll in Course - Logout>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "ScheduleManagement",
+        "eventPairs" : [
+            "<Student Login - View Schedule>",
+            "<View Schedule - Drop Course>",
+            "<Drop Course - View Schedule>",
+            "<View Schedule - Logout>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "AdvancedFeatures",
+        "eventPairs" : [],
+        "events" : []
+    },
+
+    {
+        "featureName" : "ConflictDetection",
+        "eventPairs" : [
+            "<Enroll in Course - Detect Time Conflicts>",
+            "<Advisor Approves Course - Detect Time Conflicts>",
+            "<Detect Time Conflicts - View Conflict Suggestions>",
+            "<Detect Time Conflicts - Generate Dynamic Schedule>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "DynamicScheduling",
+        "eventPairs" : [
+            "<View Conflict Suggestions - Generate Dynamic Schedule>",
+            "<Generate Dynamic Schedule - Enroll in Course>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "WaitlistManagement",
+        "eventPairs" : [
+            "<Enroll in Course - Join Waitlist>",
+            "<Join Waitlist - Auto Enroll from Waitlist>",
+            "<Join Waitlist - View Schedule>",
+            "<Join Waitlist - Logout>",
+            "<Auto Enroll from Waitlist - View Schedule>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "PriorityRegistration",
+        "eventPairs" : [
+            "<Student Login - Priority Registration Window>",
+            "<Priority Registration Window - Search Course>",
+            "<Priority Registration Window - View Schedule>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "AdvisorApproval",
+        "eventPairs" : [
+            "<Check Prerequisites - Request Advisor Approval>",
+            "<Request Advisor Approval - Advisor Approves Course>",
+            "<Request Advisor Approval - Advisor Rejects Course>",
+            "<Advisor Rejects Course - View Recommendations>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "AuditMode",
+        "eventPairs" : [
+            "<View Schedule - Toggle Audit Mode>",
+            "<Toggle Audit Mode - View Schedule>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "AdaptiveRecommendations",
+        "eventPairs" : [
+            "<Search Course - View Recommendations>",
+            "<View Course Details - View Recommendations>",
+            "<Advisor Rejects Course - View Recommendations>",
+            "<View Recommendations - Accept Recommendation>",
+            "<View Recommendations - Decline Recommendation>",
+            "<Accept Recommendation - Add Course to Cart>",
+            "<Decline Recommendation - Search Course>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "RecommendationStrategy",
+        "eventPairs" : [],
+        "events" : []
+    },
+
+    {
+        "featureName" : "RuleBasedRecommendations",
+        "eventPairs" : [
+            "<Search Course - View Recommendations>",
+            "<View Recommendations - Accept Recommendation>",
+            "<View Recommendations - Decline Recommendation>"
+        ],
+        "events" : []
+    },
+
+    {
+        "featureName" : "MLBasedRecommendations",
+        "eventPairs" : [
+            "<View Course Details - View Recommendations>",
+            "<Advisor Rejects Course - View Recommendations>"
+        ],
+        "events" : []
+    }
+]

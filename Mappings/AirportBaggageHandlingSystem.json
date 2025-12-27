@@ -1,0 +1,208 @@
+[
+	{
+		"featureName" : "BaggageHandling",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - Check-in Bag>",
+						"<Check-in Bag - Attach Bag Tag>",
+						"<Attach Bag Tag - Scan Tag at Check-in>",
+						"<Scan Tag at Check-in - Load onto Check-in Conveyor>",
+						"<Load onto Check-in Conveyor - Route to Security Scanner>",
+						"<Route to Security Scanner - X-Ray Screen Bag>",
+						"<X-Ray Screen Bag - Clear Security>",
+						"<Clear Security - Route to Sorter>",
+						"<Route to Sorter - Scan Tag at Sorter>",
+						"<Scan Tag at Sorter - Conveyor Route to Pier>",
+						"<Conveyor Route to Pier - Load onto Aircraft>",
+						"<Load onto Aircraft - Unload from Aircraft>",
+						"<Unload from Aircraft - Scan Tag on Unload>",
+						"<Scan Tag on Unload - Send to Claim Carousel>",
+						"<Send to Claim Carousel - Scan Tag at Claim>",
+						"<Scan Tag at Claim - Passenger Picks Up Bag>",
+						"<Passenger Picks Up Bag - ]>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SecurityMode",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "StandardScreening",
+		"eventPairs" : [
+						"<X-Ray Screen Bag - Clear Security>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "EnhancedScreening",
+		"eventPairs" : [
+						"<X-Ray Screen Bag - Manual Inspection>",
+						"<Manual Inspection - Clear Security>",
+						"<Manual Inspection - Reject Bag at Security>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Notifications",
+		"eventPairs" : [
+						"<Start Delayed Bag Trace - Update Passenger Notifications>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Email",
+		"eventPairs" : [
+						"<Update Passenger Notifications - Send Email Notification>",
+						"<Send Email Notification - Synchronize Baggage Database>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SMS",
+		"eventPairs" : [
+						"<Update Passenger Notifications - Send SMS Notification>",
+						"<Send SMS Notification - Synchronize Baggage Database>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MobileApp",
+		"eventPairs" : [
+						"<Update Passenger Notifications - Send Mobile App Notification>",
+						"<Send Mobile App Notification - Synchronize Baggage Database>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "RoutingDestination",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "DomesticClaim",
+		"eventPairs" : [
+						"<Scan Tag at Sorter - Conveyor Route to Baggage Claim>",
+						"<Conveyor Route to Baggage Claim - Send to Claim Carousel>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "TransferFlight",
+		"eventPairs" : [
+						"<Scan Tag at Sorter - Conveyor Route to Transfer>",
+						"<Conveyor Route to Transfer - Load onto Aircraft>",
+						"<Scan Tag on Unload - Send to Transfer Conveyor>",
+						"<Send to Transfer Conveyor - Route to Sorter>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "InterlineTransfer",
+		"eventPairs" : [
+						"<Scan Tag at Sorter - Conveyor Route to Transfer>",
+						"<Scan Tag on Unload - Send to Transfer Conveyor>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "BaggageCheckIn",
+		"eventPairs" : [
+						"<[ - Check-in Bag>",
+						"<Check-in Bag - Attach Bag Tag>",
+						"<Attach Bag Tag - Scan Tag at Check-in>",
+						"<Scan Tag at Check-in - Load onto Check-in Conveyor>",
+						"<Scan Tag at Check-in - Synchronize Baggage Database>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SecurityScreening",
+		"eventPairs" : [
+						"<Load onto Check-in Conveyor - Route to Security Scanner>",
+						"<Route to Security Scanner - X-Ray Screen Bag>",
+						"<X-Ray Screen Bag - Clear Security>",
+						"<X-Ray Screen Bag - Manual Inspection>",
+						"<Manual Inspection - Clear Security>",
+						"<Manual Inspection - Reject Bag at Security>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SortingRouting",
+		"eventPairs" : [
+						"<Clear Security - Route to Sorter>",
+						"<Route to Sorter - Scan Tag at Sorter>",
+						"<Scan Tag at Sorter - Conveyor Route to Pier>",
+						"<Scan Tag at Sorter - Conveyor Route to Transfer>",
+						"<Scan Tag at Sorter - Conveyor Route to Baggage Claim>",
+						"<Send to Transfer Conveyor - Route to Sorter>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "BaggageDelivery",
+		"eventPairs" : [
+						"<Conveyor Route to Pier - Load onto Aircraft>",
+						"<Load onto Aircraft - Unload from Aircraft>",
+						"<Unload from Aircraft - Scan Tag on Unload>",
+						"<Scan Tag on Unload - Send to Claim Carousel>",
+						"<Scan Tag on Unload - Send to Transfer Conveyor>",
+						"<Send to Claim Carousel - Scan Tag at Claim>",
+						"<Scan Tag at Claim - Passenger Picks Up Bag>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "DataSynchronization",
+		"eventPairs" : [
+						"<Scan Tag at Check-in - Synchronize Baggage Database>",
+						"<Scan Tag at Sorter - Synchronize Baggage Database>",
+						"<Scan Tag on Unload - Synchronize Baggage Database>",
+						"<Scan Tag at Claim - Synchronize Baggage Database>",
+						"<Send Email Notification - Synchronize Baggage Database>",
+						"<Send SMS Notification - Synchronize Baggage Database>",
+						"<Send Mobile App Notification - Synchronize Baggage Database>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "DelayHandling",
+		"eventPairs" : [
+						"<Reject Bag at Security - Mark Bag Delayed>",
+						"<Mark Bag Delayed - Start Delayed Bag Trace>",
+						"<Start Delayed Bag Trace - Update Passenger Notifications>",
+						"<Synchronize Baggage Database - Start Delayed Bag Trace>"
+						],
+		"events" : []
+	}
+]

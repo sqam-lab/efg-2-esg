@@ -1,0 +1,70 @@
+[
+    {
+        "featureName": "core",
+        "eventPairs": [
+			"<[ - BeginJourney>",
+            "<BeginJourney - Ignite Gas Engine>",
+            "<BeginJourney - Start Electric Motor>",
+            "<Ignite Gas Engine - Select Manual Mode>",
+            "<Start Electric Motor - Select Manual Mode>",
+            "<Select Manual Mode - Accelerate>",
+            "<Accelerate - Decelerate>",
+            "<Decelerate - Accelerate>",
+            "<Accelerate - Turn Left>",
+            "<Accelerate - Turn Right>",
+            "<Turn Left - Accelerate>",
+            "<Turn Right - Accelerate>",
+            "<Decelerate - Park>",
+            "<Park - Stop Engine>",
+			"<Stop Engine - ]>"
+        ],
+        "events": []
+    },
+    {
+        "featureName": "GasEngine",
+        "eventPairs": [
+            "<Ignite Gas Engine - Select Manual Mode>",
+            "<Ignite Gas Engine - Select Autonomous Mode>"
+        ],
+        "events": []
+    },
+    {
+        "featureName": "ElectricEngine",
+        "eventPairs": [
+            "<Start Electric Motor - Select Manual Mode>",
+            "<Start Electric Motor - Select Autonomous Mode>"
+        ],
+        "events": []
+    },
+    {
+        "featureName": "AutonomousDriving",
+        "eventPairs": [
+            "<Select Autonomous Mode - Autosteer>",
+            "<Select Autonomous Mode - Cruise Control>",
+            "<Cruise Control - Park>",
+            "<Autosteer - Park>"
+        ],
+        "events": []
+    },
+    {
+        "featureName": "CollisionAvoidance",
+        "eventPairs": [
+            "<Accelerate - Obstacle Detected>",
+            "<Autosteer - Obstacle Detected>",
+            "<Cruise Control - Obstacle Detected>",
+            "<Obstacle Detected - Emergency Brake>",
+            "<Emergency Brake - Stop Engine>"
+        ],
+        "events": []
+    },
+    {
+        "featureName": "LaneAssist",
+        "eventPairs": [
+            "<Turn Left - Lane Detected>",
+            "<Turn Right - Lane Detected>",
+            "<Lane Detected - Lane Correction>",
+            "<Lane Correction - Accelerate>"
+        ],
+        "events": []
+    }
+]

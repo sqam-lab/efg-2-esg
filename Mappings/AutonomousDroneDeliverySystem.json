@@ -1,0 +1,224 @@
+[
+	{
+		"featureName" : "AutonomousDroneDeliverySystem",
+		"eventPairs" : [
+					],
+		"events" : []
+	},
+	
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+					"<[ - Idle>",
+					"<Idle - ]>",
+					"<Idle - Open Mission Console>",
+					"<Open Mission Console - Idle>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MissionSetup",
+		"eventPairs" : [
+					"<Idle - Open Mission Console>",
+					"<Open Mission Console - Configure Mission>",
+					"<Configure Mission - Select Payload Type>",
+					"<Configure Mission - Select Navigation Mode>",
+					"<Configure Mission - Select Obstacle Avoidance Profile>",
+					"<Configure Mission - Select Weather Profile>",
+					"<Select Payload Type - Preflight Check>",
+					"<Select Navigation Mode - Preflight Check>",
+					"<Select Obstacle Avoidance Profile - Preflight Check>",
+					"<Select Weather Profile - Preflight Check>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "NavigationMode",
+		"eventPairs" : [
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "GPS",
+		"eventPairs" : [
+					"<Ascend to Cruise Altitude - Navigate to Delivery Zone>",
+					"<Navigate to Delivery Zone - Return to Base>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "VisualSLAM",
+		"eventPairs" : [
+					"<Navigate to Delivery Zone - Avoid Static Obstacle>",
+					"<Avoid Static Obstacle - Navigate to Delivery Zone>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "HybridNavigation",
+		"eventPairs" : [
+					"<Navigate to Delivery Zone - Avoid Dynamic Obstacle>",
+					"<Avoid Dynamic Obstacle - Navigate to Delivery Zone>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "ObstacleAvoidance",
+		"eventPairs" : [
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "BasicSensors",
+		"eventPairs" : [
+					"<Navigate to Delivery Zone - Avoid Static Obstacle>",
+					"<Avoid Static Obstacle - Navigate to Delivery Zone>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AdvancedSensors",
+		"eventPairs" : [
+					"<Navigate to Delivery Zone - Avoid Dynamic Obstacle>",
+					"<Avoid Dynamic Obstacle - Navigate to Delivery Zone>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "CloudAssisted",
+		"eventPairs" : [
+					"<Navigate to Delivery Zone - Adjust Route for Weather>",
+					"<Adjust Route for Weather - Navigate to Delivery Zone>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "WeatherAdaptation",
+		"eventPairs" : [
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "PassiveMonitoring",
+		"eventPairs" : [
+					"<Navigate to Delivery Zone - Adjust Route for Weather>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "ActiveReRouting",
+		"eventPairs" : [
+					"<Adjust Route for Weather - Navigate to Delivery Zone>",
+					"<Navigate to Delivery Zone - Return to Base>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "BatteryOptimization",
+		"eventPairs" : [
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "StandardProfile",
+		"eventPairs" : [
+					"<Return to Base - Land at Base>",
+					"<Land at Base - Upload Flight Log>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "BalancedProfile",
+		"eventPairs" : [
+					"<Navigate to Delivery Zone - Battery Saving Reroute>",
+					"<Battery Saving Reroute - Navigate to Delivery Zone>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AggressiveProfile",
+		"eventPairs" : [
+					"<Battery Saving Reroute - Return to Base>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "PayloadType",
+		"eventPairs" : [
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "FoodDelivery",
+		"eventPairs" : [
+					"<Descend to Drop Altitude - Drop Package>",
+					"<Drop Package - Confirm Delivery>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MedicalDelivery",
+		"eventPairs" : [
+					"<Descend to Drop Altitude - Drop Package>",
+					"<Drop Package - Confirm Delivery>",
+					"<Confirm Delivery - Return to Base>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "ParcelDelivery",
+		"eventPairs" : [
+					"<Descend to Drop Altitude - Drop Package>",
+					"<Drop Package - Confirm Delivery>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "ConfidentialDocs",
+		"eventPairs" : [
+					"<Confirm Delivery - Return to Base>",
+					"<Return to Base - Land at Base>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MultiDroneCoordination",
+		"eventPairs" : [
+					"<Navigate to Delivery Zone - Return to Base>",
+					"<Return to Base - Land at Base>"
+					],
+		"events" : []
+	},
+
+	{
+		"featureName" : "NightOperation",
+		"eventPairs" : [
+					"<Preflight Check - Arm Motors>",
+					"<Takeoff - Emergency Land>",
+					"<Navigate to Delivery Zone - Emergency Land>"
+					],
+		"events" : []
+	}
+]

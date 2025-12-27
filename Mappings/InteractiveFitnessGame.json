@@ -1,0 +1,216 @@
+[
+    {
+        "featureName": "InteractiveFitnessGame",
+        "eventPairs": [],
+        "events": []
+    },
+
+    {
+        "featureName": "Core",
+        "eventPairs": [
+            "<[ - Launch Game>",
+            "<[ - Login>",
+            "<Launch Game - Login>",
+            "<Launch Game - Main Menu>",
+            "<Login - Select Profile>",
+            "<Select Profile - Main Menu>",
+            "<Main Menu - ]>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "SessionManagement",
+        "eventPairs": [
+            "<[ - Launch Game>",
+            "<[ - Login>",
+            "<View Stats Dashboard - ]>",
+            "<View Leaderboard - ]>",
+            "<Main Menu - ]>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "WorkoutEngine",
+        "eventPairs": [
+            "<Main Menu - Select Workout Mode>",
+            "<Select Workout Mode - Quick Workout>",
+            "<Select Workout Mode - Story Campaign>",
+            "<Quick Workout - Start Workout>",
+            "<Story Campaign - Start Workout>",
+            "<Start Workout - Perform Exercise Rep>",
+            "<Perform Exercise Rep - Perform Exercise Rep>",
+            "<Perform Exercise Rep - Rest Break>",
+            "<Rest Break - Perform Exercise Rep>",
+            "<Perform Exercise Rep - Complete Workout>",
+            "<Complete Workout - View Stats Dashboard>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "WorkoutSelection",
+        "eventPairs": [
+            "<Main Menu - Select Workout Mode>",
+            "<Select Workout Mode - Quick Workout>",
+            "<Select Workout Mode - Story Campaign>",
+            "<Select Workout Mode - Adjust Difficulty>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "ExerciseExecution",
+        "eventPairs": [
+            "<Start Workout - Perform Exercise Rep>",
+            "<Perform Exercise Rep - Perform Exercise Rep>",
+            "<Perform Exercise Rep - Rest Break>",
+            "<Rest Break - Perform Exercise Rep>",
+            "<Perform Exercise Rep - Complete Workout>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "DifficultyMode",
+        "eventPairs": [
+            "<Select Workout Mode - Adjust Difficulty>",
+            "<Quick Workout - Adjust Difficulty>",
+            "<Story Campaign - Adjust Difficulty>",
+            "<Adjust Difficulty - Quick Workout>",
+            "<Adjust Difficulty - Story Campaign>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "FixedLevels",
+        "eventPairs": [
+            "<Select Workout Mode - Adjust Difficulty>",
+            "<Adjust Difficulty - Quick Workout>",
+            "<Adjust Difficulty - Story Campaign>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "AdaptiveIntensity",
+        "eventPairs": [
+            "<Quick Workout - Adjust Difficulty>",
+            "<Story Campaign - Adjust Difficulty>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "Tracking",
+        "eventPairs": [
+            "<Main Menu - Calibrate Motion Tracking>",
+            "<Calibrate Motion Tracking - Main Menu>",
+            "<Start Workout - Perform Exercise Rep>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "CameraMotionTracking",
+        "eventPairs": [
+            "<Main Menu - Calibrate Motion Tracking>",
+            "<Calibrate Motion Tracking - Main Menu>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "WearableTracking",
+        "eventPairs": [
+            "<Start Workout - Perform Exercise Rep>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "Social",
+        "eventPairs": [
+            "<Main Menu - View Leaderboard>",
+            "<Main Menu - Multiplayer Lobby>",
+            "<Multiplayer Lobby - Send Challenge>",
+            "<Multiplayer Lobby - Receive Challenge>",
+            "<Send Challenge - Multiplayer Lobby>",
+            "<Receive Challenge - Multiplayer Lobby>",
+            "<View Leaderboard - Send Challenge>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "Leaderboards",
+        "eventPairs": [
+            "<Main Menu - View Leaderboard>",
+            "<View Leaderboard - Send Challenge>",
+            "<View Leaderboard - Claim Achievement Badge>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "Challenges",
+        "eventPairs": [
+            "<Multiplayer Lobby - Send Challenge>",
+            "<Multiplayer Lobby - Receive Challenge>",
+            "<Send Challenge - Multiplayer Lobby>",
+            "<Receive Challenge - Multiplayer Lobby>",
+            "<View Leaderboard - Send Challenge>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "MultiplayerSessions",
+        "eventPairs": [
+            "<Main Menu - Multiplayer Lobby>",
+            "<Multiplayer Lobby - Start Workout>",
+            "<Multiplayer Lobby - Send Challenge>",
+            "<Multiplayer Lobby - Receive Challenge>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "Rewards",
+        "eventPairs": [
+            "<Complete Workout - View Stats Dashboard>",
+            "<View Stats Dashboard - Claim Achievement Badge>",
+            "<Claim Achievement Badge - View Stats Dashboard>",
+            "<View Leaderboard - Claim Achievement Badge>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "AchievementBadges",
+        "eventPairs": [
+            "<View Stats Dashboard - Claim Achievement Badge>",
+            "<Claim Achievement Badge - View Stats Dashboard>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "CosmeticUnlocks",
+        "eventPairs": [
+            "<View Stats Dashboard - Claim Achievement Badge>"
+        ],
+        "events": []
+    },
+
+    {
+        "featureName": "HealthDataSync",
+        "eventPairs": [
+            "<View Stats Dashboard - Sync Health Data>",
+            "<Sync Health Data - View Stats Dashboard>"
+        ],
+        "events": []
+    }
+]

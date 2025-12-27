@@ -1,0 +1,177 @@
+[
+	{
+		"featureName" : "MusicStreaming",
+		"eventPairs" : [ ],
+		"events" : []
+	},
+
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+			"<[ - Open App Home>",
+			"<Open App Home - Sign In>",
+			"<Sign In - Browse Home>",
+			"<Browse Home - Open App Home>",
+			"<Open App Home - Browse Home>",
+			"<Open App Home - ]>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "PlaybackCore",
+		"eventPairs" : [
+			"<Browse Home - Search Music>",
+			"<Search Music - View Album>",
+			"<View Album - Play Track>",
+			"<Play Track - Pause Track>",
+			"<Pause Track - Play Track>",
+			"<Play Track - Skip Track>",
+			"<Skip Track - Play Track>",
+			"<Play Track - Adjust Volume>",
+			"<Adjust Volume - Play Track>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "PlaybackOptions",
+		"eventPairs" : [ ],
+		"events" : []
+	},
+
+	{
+		"featureName" : "BasicPlayback",
+		"eventPairs" : [
+			"<View Album - Play Track>",
+			"<Play Track - Pause Track>",
+			"<Pause Track - Play Track>",
+			"<Play Track - Skip Track>",
+			"<Skip Track - Play Track>",
+			"<Play Track - Adjust Volume>",
+			"<Adjust Volume - Play Track>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AdvancedPlayback",
+		"eventPairs" : [
+			"<Play Track - Add To Queue>",
+			"<Add To Queue - Play Track>",
+			"<Browse Home - Create Playlist>",
+			"<Create Playlist - Add To Playlist>",
+			"<Add To Playlist - Play Track>",
+			"<Add To Playlist - Browse Home>",
+			"<View Album - Add To Playlist>",
+			"<View Album - Add To Queue>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "LibraryManagement",
+		"eventPairs" : [
+			"<Play Track - Like Track>",
+			"<Like Track - Play Track>",
+			"<Create Playlist - Add To Playlist>",
+			"<Add To Playlist - Play Track>",
+			"<Add To Playlist - Browse Home>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Downloads",
+		"eventPairs" : [
+			"<Play Track - Download Track>",
+			"<Download Track - Play Track>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "OfflineMode",
+		"eventPairs" : [
+			"<Download Track - Toggle Offline Mode>",
+			"<Toggle Offline Mode - Play Downloaded Track>",
+			"<Play Downloaded Track - Pause Track>",
+			"<Play Downloaded Track - Skip Track>",
+			"<Play Downloaded Track - Adjust Volume>",
+			"<Play Downloaded Track - Browse Home>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SocialSharing",
+		"eventPairs" : [
+			"<Play Track - Share Track>",
+			"<Share Track - Play Track>",
+			"<Open Friend Feed - Share Track>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SocialDiscovery",
+		"eventPairs" : [
+			"<Open App Home - Open Friend Feed>",
+			"<Browse Home - Open Friend Feed>",
+			"<Open Friend Feed - Play Track>",
+			"<Open Friend Feed - Like Track>",
+			"<Open Friend Feed - Share Track>",
+			"<Open Friend Feed - Browse Home>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SubscriptionTier",
+		"eventPairs" : [ ],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Free",
+		"eventPairs" : [
+			"<Browse Home - View Subscription Options>",
+			"<Open App Home - View Subscription Options>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "PremiumIndividual",
+		"eventPairs" : [
+			"<Browse Home - View Subscription Options>",
+			"<Open App Home - View Subscription Options>",
+			"<View Subscription Options - Upgrade To Premium>",
+			"<Upgrade To Premium - Open App Home>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "PremiumFamily",
+		"eventPairs" : [
+			"<Browse Home - View Subscription Options>",
+			"<Open App Home - View Subscription Options>",
+			"<View Subscription Options - Upgrade To Premium>",
+			"<Upgrade To Premium - Open App Home>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "PersonalizedRecommendations",
+		"eventPairs" : [
+			"<Open App Home - View Recommendations>",
+			"<Browse Home - View Recommendations>",
+			"<View Recommendations - Play Track>",
+			"<View Recommendations - Browse Home>",
+			"<View Recommendations - View Album>"
+		],
+		"events" : []
+	}
+]

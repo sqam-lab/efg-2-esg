@@ -1,0 +1,162 @@
+[
+	{
+		"featureName" : "SmartFarmingMS",
+		"eventPairs" : [
+						
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+			"<[ - Open Farm Dashboard>",
+			"<Open Farm Dashboard - Open Field Selection>",
+			"<Open Field Selection - Select Field>",
+			"<Select Field - Open Farm Dashboard>",
+			"<Open Farm Dashboard - ]>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "FieldManagement",
+		"eventPairs" : [
+			"<Open Farm Dashboard - Open Field Selection>",
+			"<Open Field Selection - Select Field>",
+			"<Select Field - Open Sensor Overview>",
+			"<Open Sensor Overview - Return to Dashboard>",
+			"<Return to Dashboard - Open Farm Dashboard>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "DataAcquisition",
+		"eventPairs" : [
+						
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "WeatherIntegration",
+		"eventPairs" : [
+			"<Open Farm Dashboard - Open Weather Panel>",
+			"<Open Weather Panel - Open Analytics Panel>",
+			"<Open Weather Panel - Return to Dashboard>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SoilSensors",
+		"eventPairs" : [
+			"<Open Farm Dashboard - Open Sensor Overview>",
+			"<Open Sensor Overview - View Soil Moisture>",
+			"<Open Sensor Overview - View Soil Nutrients>",
+			"<View Soil Moisture - Open Analytics Panel>",
+			"<View Soil Nutrients - Open Analytics Panel>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "DroneInspection",
+		"eventPairs" : [
+			"<Open Farm Dashboard - Open Drone Panel>",
+			"<Open Drone Panel - Launch Drone Scan>",
+			"<Launch Drone Scan - View Drone Imagery>",
+			"<View Drone Imagery - Return to Dashboard>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "IrrigationMode",
+		"eventPairs" : [
+						
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AutomaticIrrigation",
+		"eventPairs" : [
+			"<Open Farm Dashboard - Open Irrigation Panel>",
+			"<Open Irrigation Panel - Schedule Irrigation>",
+			"<Schedule Irrigation - Stop Irrigation>",
+			"<Stop Irrigation - Open Irrigation Panel>",
+			"<Schedule Irrigation - Return to Dashboard>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "ManualIrrigation",
+		"eventPairs" : [
+			"<Open Farm Dashboard - Open Irrigation Panel>",
+			"<Open Irrigation Panel - Manual Irrigation Override>",
+			"<Manual Irrigation Override - Stop Irrigation>",
+			"<Stop Irrigation - Return to Dashboard>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "FertilizerControl",
+		"eventPairs" : [
+			"<Open Farm Dashboard - Open Fertilizer Panel>",
+			"<Open Fertilizer Panel - Apply Fertilizer Plan>",
+			"<Apply Fertilizer Plan - Return to Dashboard>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "FertilizerType",
+		"eventPairs" : [
+						
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "OrganicFertilizer",
+		"eventPairs" : [
+			"<Open Fertilizer Panel - Apply Fertilizer Plan>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "SyntheticFertilizer",
+		"eventPairs" : [
+			"<Open Fertilizer Panel - Apply Fertilizer Plan>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "CropAnalytics",
+		"eventPairs" : [
+			"<Open Farm Dashboard - Open Analytics Panel>",
+			"<Open Analytics Panel - Generate Yield Report>",
+			"<Open Analytics Panel - Export Data>",
+			"<Generate Yield Report - Open Analytics Panel>",
+			"<Export Data - Open Analytics Panel>"
+		],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Alerts",
+		"eventPairs" : [
+			"<Open Farm Dashboard - Open Alerts Panel>",
+			"<Open Alerts Panel - Acknowledge Alert>",
+			"<Acknowledge Alert - Open Alerts Panel>",
+			"<Acknowledge Alert - Return to Dashboard>"
+		],
+		"events" : []
+	}
+]

@@ -1,0 +1,151 @@
+[
+	{
+		"featureName" : "VirtualMuseumTourPlatform",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "core",
+		"eventPairs" : [
+						"<[ - Open Platform Home>",
+						"<Open Platform Home - ]>",
+						"<Open Platform Home - Open Main Menu>",
+						"<Open Main Menu - Open Platform Home>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "TourMode",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "GuidedTour",
+		"eventPairs" : [
+						"<Open Platform Home - Start Guided Tour>",
+						"<Start Guided Tour - Enter 3D Gallery>",
+						"<Start Guided Tour - Pause Guided Tour>",
+						"<Pause Guided Tour - Resume Guided Tour>",
+						"<Resume Guided Tour - Pause Guided Tour>",
+						"<Resume Guided Tour - Enter 3D Gallery>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "FreeExploration",
+		"eventPairs" : [
+						"<Enter 3D Gallery - Rotate View>",
+						"<Rotate View - Zoom Exhibit>",
+						"<Zoom Exhibit - Open Exhibit Details>",
+						"<Open Exhibit Details - Enter 3D Gallery>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MediaEnhancements",
+		"eventPairs" : [
+						
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AudioGuide",
+		"eventPairs" : [
+						"<Open Exhibit Details - Play Audio Guide>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MultilingualAudio",
+		"eventPairs" : [
+						"<Play Audio Guide - Change Audio Language>",
+						"<Change Audio Language - Play Audio Guide>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Subtitles",
+		"eventPairs" : [
+						"<Open Exhibit Details - Play Audio Guide>",
+						"<Play Audio Guide - Toggle Subtitles>",
+						"<Toggle Subtitles - Play Audio Guide>",
+						"<Play Audio Guide - Open Exhibit Details>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "AROverlays",
+		"eventPairs" : [
+						"<Open Exhibit Details - Start AR Overlay>",
+						"<Start AR Overlay - Toggle AR Info Layer>",
+						"<Toggle AR Info Layer - Start AR Overlay>",
+						"<Start AR Overlay - Open Exhibit Details>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "LiveCuratorQA",
+		"eventPairs" : [
+						"<Open Platform Home - Join Live Curator Q&A>",
+						"<Join Live Curator Q&A - Submit Question>",
+						"<Submit Question - View Q&A Transcript>",
+						"<View Q&A Transcript - Join Live Curator Q&A>",
+						"<Join Live Curator Q&A - Open Main Menu>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "MuseumSelection",
+		"eventPairs" : [
+						"<Open Platform Home - Select Museum>",
+						"<Select Museum - Enter 3D Gallery>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "Bookmarks",
+		"eventPairs" : [
+						"<Open Exhibit Details - Bookmark Exhibit>",
+						"<Bookmark Exhibit - Open Bookmarks>",
+						"<Open Bookmarks - Open Exhibit Details>",
+						"<Open Bookmarks - Open Platform Home>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "KidsMode",
+		"eventPairs" : [
+						"<Change Display Mode - Kids Mode Home>",
+						"<Kids Mode Home - Open Platform Home>"
+						],
+		"events" : []
+	},
+
+	{
+		"featureName" : "DisplaySettings",
+		"eventPairs" : [
+						"<Open Main Menu - Open Settings>",
+						"<Open Settings - Change Display Mode>",
+						"<Change Display Mode - Open Settings>",
+						"<Open Settings - Open Platform Home>"
+						],
+		"events" : []
+	}
+]
