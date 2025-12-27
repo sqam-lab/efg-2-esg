@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendposition" value="1208,42"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="MusicStreaming">
+			<graphics key="collapsed" value="false"/>
+			<and mandatory="true" name="core">
+				<feature mandatory="true" name="PlaybackCore"/>
+				<or abstract="true" name="PlaybackOptions">
+					<feature name="BasicPlayback"/>
+					<feature name="AdvancedPlayback"/>
+				</or>
+				<feature name="LibraryManagement"/>
+				<feature name="Downloads"/>
+				<feature name="OfflineMode"/>
+				<feature name="SocialSharing"/>
+				<feature name="SocialDiscovery"/>
+				<alt abstract="true" name="SubscriptionTier">
+					<feature name="Free"/>
+					<feature name="PremiumIndividual"/>
+					<feature name="PremiumFamily"/>
+				</alt>
+				<feature name="PersonalizedRecommendations"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>
+

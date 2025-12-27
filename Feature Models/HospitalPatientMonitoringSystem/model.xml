@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendposition" value="1208,42"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="HospitalPMS">
+			<graphics key="collapsed" value="false"/>
+			<and mandatory="true" name="core">
+			
+				<!-- XOR: Monitoring mode -->
+				<alt abstract="true" name="MonitoringMode">
+					<feature name="BedsideMonitoring"/>
+					<feature name="RemoteMonitoring"/>
+				</alt>
+				
+				<!-- OR: Which vitals are tracked -->
+				<or abstract="true" name="VitalsTracked">
+					<feature name="HeartRateTracking"/>
+					<feature name="BloodPressureTracking"/>
+					<feature name="SpO2Tracking"/>
+					<feature name="RespiratoryRateTracking"/>
+				</or>
+				
+				<!-- XOR: Alert channel -->
+				<alt abstract="true" name="AlertChannel">
+					<feature name="LocalAudibleAlert"/>
+					<feature name="NursePagerAlert"/>
+					<feature name="MobilePushAlert"/>
+				</alt>
+				
+				<!-- XOR: Escalation policy -->
+				<alt abstract="true" name="EscalationPolicy">
+					<feature name="StandardEscalation"/>
+					<feature name="EmergencyEscalation"/>
+				</alt>
+				
+				<!-- Core & optional features -->
+				<feature mandatory="true" name="EHRIntegration"/>
+				<feature name="RemoteDoctorAccess"/>
+				<feature name="DataEncryption"/>
+				<feature name="TrendAnalysis"/>
+				<feature name="AuditLogging"/>
+				<feature name="AlertThresholdConfiguration"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendposition" value="1208,42"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="CourseRegistrationSystem">
+			<graphics key="collapsed" value="false"/>
+			<and mandatory="true" name="Core">
+				<feature mandatory="true" name="Authentication"/>
+				<feature mandatory="true" name="CourseSelection"/>
+				<feature mandatory="true" name="Enrollment"/>
+				<feature mandatory="true" name="ScheduleManagement"/>
+				<or abstract="true" name="AdvancedFeatures">
+					<feature name="ConflictDetection"/>
+					<feature name="DynamicScheduling"/>
+					<feature name="WaitlistManagement"/>
+					<feature name="PriorityRegistration"/>
+					<feature name="AdvisorApproval"/>
+					<feature name="AuditMode"/>
+					<and abstract="true" name="AdaptiveRecommendations">
+						<alt abstract="true" name="RecommendationStrategy">
+							<feature name="RuleBasedRecommendations"/>
+							<feature name="MLBasedRecommendations"/>
+						</alt>
+					</and>
+				</or>
+			</and>
+		</and>
+	</struct>
+</featureModel>

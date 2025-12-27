@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendposition" value="1208,42"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="SmartFarmingMS">
+			<graphics key="collapsed" value="false"/>
+			<and mandatory="true" name="core">
+				<alt abstract="true" name="IrrigationMode">
+					<feature name="AutomaticIrrigation"/>
+					<feature name="ManualIrrigation"/>
+				</alt>
+				<or abstract="true" name="DataAcquisition">
+					<feature name="WeatherIntegration"/>
+					<feature name="SoilSensors"/>
+					<feature name="DroneInspection"/>
+				</or>
+				<feature mandatory="true" name="FieldManagement"/>
+				<feature name="FertilizerControl"/>
+				<feature name="CropAnalytics"/>
+				<feature name="Alerts"/>
+				<alt abstract="true" name="FertilizerType">
+					<feature name="OrganicFertilizer"/>
+					<feature name="SyntheticFertilizer"/>
+				</alt>
+			</and>
+		</and>
+	</struct>
+</featureModel>

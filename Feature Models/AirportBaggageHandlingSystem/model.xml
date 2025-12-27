@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendposition" value="1208,42"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="BaggageHandling">
+			<graphics key="collapsed" value="false"/>
+			<and mandatory="true" name="core">
+				<alt abstract="true" name="SecurityMode">
+					<feature name="StandardScreening"/>
+					<feature name="EnhancedScreening"/>
+				</alt>
+				<alt abstract="true" name="Notifications">
+					<feature name="Email"/>
+					<feature name="SMS"/>
+					<feature name="MobileApp"/>
+				</alt>
+				<or abstract="true" name="RoutingDestination">
+					<feature name="DomesticClaim"/>
+					<feature name="TransferFlight"/>
+					<feature name="InterlineTransfer"/>
+				</or>
+				<feature mandatory="true" name="BaggageCheckIn"/>
+				<feature mandatory="true" name="SecurityScreening"/>
+				<feature mandatory="true" name="SortingRouting"/>
+				<feature mandatory="true" name="BaggageDelivery"/>
+				<feature name="DataSynchronization"/>
+				<feature name="DelayHandling"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>
+

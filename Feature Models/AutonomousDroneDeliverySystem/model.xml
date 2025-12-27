@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendposition" value="1208,42"/>
+		<graphics key="legendautolayout" value="false"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="AutonomousDroneDeliverySystem">
+			<graphics key="collapsed" value="false"/>
+			<and mandatory="true" name="core">
+				<feature mandatory="true" name="MissionSetup"/>
+				<alt abstract="true" name="NavigationMode">
+					<feature name="GPS"/>
+					<feature name="VisualSLAM"/>
+					<feature name="HybridNavigation"/>
+				</alt>
+				<or abstract="true" name="ObstacleAvoidance">
+					<feature name="BasicSensors"/>
+					<feature name="AdvancedSensors"/>
+					<feature name="CloudAssisted"/>
+				</or>
+				<or abstract="true" name="WeatherAdaptation">
+					<feature name="PassiveMonitoring"/>
+					<feature name="ActiveReRouting"/>
+				</or>
+				<alt abstract="true" name="BatteryOptimization">
+					<feature name="StandardProfile"/>
+					<feature name="BalancedProfile"/>
+					<feature name="AggressiveProfile"/>
+				</alt>
+				<or abstract="true" name="PayloadType">
+					<feature name="FoodDelivery"/>
+					<feature name="MedicalDelivery"/>
+					<feature name="ParcelDelivery"/>
+					<feature name="ConfidentialDocs"/>
+				</or>
+				<feature name="MultiDroneCoordination"/>
+				<feature name="NightOperation"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>
