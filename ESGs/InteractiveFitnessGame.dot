@@ -1,0 +1,73 @@
+digraph G {
+rankdir = LR
+label = "Interactive Fitness Game";
+
+esg1_vertex1 -> esg1_vertex2;
+esg1_vertex1 -> esg1_vertex3;
+esg1_vertex2 -> esg1_vertex3;
+esg1_vertex2 -> esg1_vertex5;
+esg1_vertex3 -> esg1_vertex4;
+esg1_vertex3 -> esg1_vertex5;
+esg1_vertex4 -> esg1_vertex5;
+esg1_vertex5 -> esg1_vertex6;
+esg1_vertex5 -> esg1_vertex15;
+esg1_vertex5 -> esg1_vertex17;
+esg1_vertex5 -> esg1_vertex10;
+esg1_vertex5 -> esg1_vertex9;
+esg1_vertex5 -> esg1_vertex22;
+esg1_vertex6 -> esg1_vertex7;
+esg1_vertex6 -> esg1_vertex8;
+esg1_vertex6 -> esg1_vertex21;
+esg1_vertex7 -> esg1_vertex21;
+esg1_vertex8 -> esg1_vertex21;
+esg1_vertex21 -> esg1_vertex7;
+esg1_vertex21 -> esg1_vertex8;
+esg1_vertex7 -> esg1_vertex11;
+esg1_vertex8 -> esg1_vertex11;
+esg1_vertex9 -> esg1_vertex18;
+esg1_vertex9 -> esg1_vertex19;
+esg1_vertex9 -> esg1_vertex11;
+esg1_vertex18 -> esg1_vertex9;
+esg1_vertex19 -> esg1_vertex9;
+esg1_vertex10 -> esg1_vertex5;
+esg1_vertex11 -> esg1_vertex12;
+esg1_vertex12 -> esg1_vertex12;
+esg1_vertex12 -> esg1_vertex13;
+esg1_vertex13 -> esg1_vertex12;
+esg1_vertex12 -> esg1_vertex14;
+esg1_vertex14 -> esg1_vertex15;
+esg1_vertex14 -> esg1_vertex5;
+esg1_vertex15 -> esg1_vertex16;
+esg1_vertex16 -> esg1_vertex15;
+esg1_vertex15 -> esg1_vertex20;
+esg1_vertex20 -> esg1_vertex15;
+esg1_vertex15 -> esg1_vertex5;
+esg1_vertex15 -> esg1_vertex22;
+esg1_vertex17 -> esg1_vertex18;
+esg1_vertex17 -> esg1_vertex20;
+esg1_vertex17 -> esg1_vertex5;
+esg1_vertex17 -> esg1_vertex22;
+
+esg1_vertex1 [label = "["]
+esg1_vertex2 [label = "Launch Game"]
+esg1_vertex3 [label = "Login"]
+esg1_vertex4 [label = "Select Profile"]
+esg1_vertex5 [label = "Main Menu"]
+esg1_vertex6 [label = "Select Workout Mode"]
+esg1_vertex7 [label = "Quick Workout"]
+esg1_vertex8 [label = "Story Campaign"]
+esg1_vertex9 [label = "Multiplayer Lobby"]
+esg1_vertex10 [label = "Calibrate Motion Tracking"]
+esg1_vertex11 [label = "Start Workout"]
+esg1_vertex12 [label = "Perform Exercise Rep"]
+esg1_vertex13 [label = "Rest Break"]
+esg1_vertex14 [label = "Complete Workout"]
+esg1_vertex15 [label = "View Stats Dashboard"]
+esg1_vertex16 [label = "Sync Health Data"]
+esg1_vertex17 [label = "View Leaderboard"]
+esg1_vertex18 [label = "Send Challenge"]
+esg1_vertex19 [label = "Receive Challenge"]
+esg1_vertex20 [label = "Claim Achievement Badge"]
+esg1_vertex21 [label = "Adjust Difficulty"]
+esg1_vertex22 [label = "]"]
+}

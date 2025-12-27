@@ -1,0 +1,99 @@
+digraph G {
+rankdir = LR
+label = "University Course Registration System";
+
+/* Control-flow edges */
+esg1_vertex1 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex3;
+esg1_vertex3 -> esg1_vertex4;
+esg1_vertex3 -> esg1_vertex5;
+esg1_vertex3 -> esg1_vertex23;
+esg1_vertex3 -> esg1_vertex24;
+
+esg1_vertex4 -> esg1_vertex5;
+
+esg1_vertex5 -> esg1_vertex6;
+esg1_vertex5 -> esg1_vertex19;
+
+esg1_vertex6 -> esg1_vertex7;
+esg1_vertex6 -> esg1_vertex19;
+
+esg1_vertex7 -> esg1_vertex8;
+
+esg1_vertex8 -> esg1_vertex15;
+esg1_vertex8 -> esg1_vertex9;
+
+esg1_vertex9 -> esg1_vertex10;
+esg1_vertex9 -> esg1_vertex11;
+
+esg1_vertex10 -> esg1_vertex12;
+
+esg1_vertex11 -> esg1_vertex19;
+
+esg1_vertex12 -> esg1_vertex13;
+esg1_vertex12 -> esg1_vertex14;
+
+esg1_vertex13 -> esg1_vertex14;
+
+esg1_vertex14 -> esg1_vertex15;
+
+esg1_vertex15 -> esg1_vertex23;
+esg1_vertex15 -> esg1_vertex16;
+esg1_vertex15 -> esg1_vertex25;
+esg1_vertex15 -> esg1_vertex12;
+
+esg1_vertex16 -> esg1_vertex17;
+esg1_vertex16 -> esg1_vertex23;
+esg1_vertex16 -> esg1_vertex25;
+
+esg1_vertex17 -> esg1_vertex23;
+
+esg1_vertex18 -> esg1_vertex23;
+esg1_vertex23 -> esg1_vertex18;
+
+esg1_vertex19 -> esg1_vertex20;
+esg1_vertex19 -> esg1_vertex21;
+
+esg1_vertex20 -> esg1_vertex7;
+esg1_vertex21 -> esg1_vertex5;
+
+esg1_vertex23 -> esg1_vertex22;
+esg1_vertex22 -> esg1_vertex23;
+
+esg1_vertex23 -> esg1_vertex25;
+
+esg1_vertex24 -> esg1_vertex5;
+esg1_vertex24 -> esg1_vertex23;
+
+esg1_vertex3 -> esg1_vertex25;
+esg1_vertex2 -> esg1_vertex25;
+esg1_vertex25 -> esg1_vertex26;
+
+/* Vertices (events) */
+esg1_vertex1  [label = "["]
+esg1_vertex2  [label = "Open Portal"]
+esg1_vertex3  [label = "Student Login"]
+esg1_vertex4  [label = "View Degree Plan"]
+esg1_vertex5  [label = "Search Course"]
+esg1_vertex6  [label = "View Course Details"]
+esg1_vertex7  [label = "Add Course to Cart"]
+esg1_vertex8  [label = "Check Prerequisites"]
+esg1_vertex9  [label = "Request Advisor Approval"]
+esg1_vertex10 [label = "Advisor Approves Course"]
+esg1_vertex11 [label = "Advisor Rejects Course"]
+esg1_vertex12 [label = "Detect Time Conflicts"]
+esg1_vertex13 [label = "View Conflict Suggestions"]
+esg1_vertex14 [label = "Generate Dynamic Schedule"]
+esg1_vertex15 [label = "Enroll in Course"]
+esg1_vertex16 [label = "Join Waitlist"]
+esg1_vertex17 [label = "Auto Enroll from Waitlist"]
+esg1_vertex18 [label = "Toggle Audit Mode"]
+esg1_vertex19 [label = "View Recommendations"]
+esg1_vertex20 [label = "Accept Recommendation"]
+esg1_vertex21 [label = "Decline Recommendation"]
+esg1_vertex22 [label = "Drop Course"]
+esg1_vertex23 [label = "View Schedule"]
+esg1_vertex24 [label = "Priority Registration Window"]
+esg1_vertex25 [label = "Logout"]
+esg1_vertex26 [label = "]"]
+}

@@ -1,0 +1,77 @@
+digraph G {
+rankdir = LR
+label = "Airport Baggage Handling System";
+
+esg1_vertex1 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex3;
+esg1_vertex3 -> esg1_vertex4;
+esg1_vertex4 -> esg1_vertex5;
+esg1_vertex4 -> esg1_vertex24;
+esg1_vertex5 -> esg1_vertex6;
+esg1_vertex6 -> esg1_vertex7;
+esg1_vertex7 -> esg1_vertex9;
+esg1_vertex7 -> esg1_vertex8;
+esg1_vertex8 -> esg1_vertex9;
+esg1_vertex8 -> esg1_vertex10;
+esg1_vertex9 -> esg1_vertex11;
+esg1_vertex10 -> esg1_vertex21;
+esg1_vertex11 -> esg1_vertex12;
+esg1_vertex12 -> esg1_vertex13;
+esg1_vertex12 -> esg1_vertex14;
+esg1_vertex12 -> esg1_vertex15;
+esg1_vertex12 -> esg1_vertex24;
+esg1_vertex13 -> esg1_vertex16;
+esg1_vertex14 -> esg1_vertex16;
+esg1_vertex15 -> esg1_vertex19;
+esg1_vertex16 -> esg1_vertex17;
+esg1_vertex17 -> esg1_vertex18;
+esg1_vertex18 -> esg1_vertex19;
+esg1_vertex18 -> esg1_vertex20;
+esg1_vertex18 -> esg1_vertex24;
+esg1_vertex19 -> esg1_vertex25;
+esg1_vertex20 -> esg1_vertex11;
+esg1_vertex21 -> esg1_vertex22;
+esg1_vertex22 -> esg1_vertex23;
+esg1_vertex23 -> esg1_vertex27;
+esg1_vertex23 -> esg1_vertex28;
+esg1_vertex23 -> esg1_vertex29;
+esg1_vertex24 -> esg1_vertex22;
+esg1_vertex24 -> esg1_vertex25;
+esg1_vertex25 -> esg1_vertex26;
+esg1_vertex25 -> esg1_vertex24;
+esg1_vertex26 -> esg1_vertex30;
+esg1_vertex27 -> esg1_vertex24;
+esg1_vertex28 -> esg1_vertex24;
+esg1_vertex29 -> esg1_vertex24;
+
+esg1_vertex1 [label = "["]
+esg1_vertex2 [label = "Check-in Bag"]
+esg1_vertex3 [label = "Attach Bag Tag"]
+esg1_vertex4 [label = "Scan Tag at Check-in"]
+esg1_vertex5 [label = "Load onto Check-in Conveyor"]
+esg1_vertex6 [label = "Route to Security Scanner"]
+esg1_vertex7 [label = "X-Ray Screen Bag"]
+esg1_vertex8 [label = "Manual Inspection"]
+esg1_vertex9 [label = "Clear Security"]
+esg1_vertex10 [label = "Reject Bag at Security"]
+esg1_vertex11 [label = "Route to Sorter"]
+esg1_vertex12 [label = "Scan Tag at Sorter"]
+esg1_vertex13 [label = "Conveyor Route to Pier"]
+esg1_vertex14 [label = "Conveyor Route to Transfer"]
+esg1_vertex15 [label = "Conveyor Route to Baggage Claim"]
+esg1_vertex16 [label = "Load onto Aircraft"]
+esg1_vertex17 [label = "Unload from Aircraft"]
+esg1_vertex18 [label = "Scan Tag on Unload"]
+esg1_vertex19 [label = "Send to Claim Carousel"]
+esg1_vertex20 [label = "Send to Transfer Conveyor"]
+esg1_vertex21 [label = "Mark Bag Delayed"]
+esg1_vertex22 [label = "Start Delayed Bag Trace"]
+esg1_vertex23 [label = "Update Passenger Notifications"]
+esg1_vertex24 [label = "Synchronize Baggage Database"]
+esg1_vertex25 [label = "Scan Tag at Claim"]
+esg1_vertex26 [label = "Passenger Picks Up Bag"]
+esg1_vertex27 [label = "Send Email Notification"]
+esg1_vertex28 [label = "Send SMS Notification"]
+esg1_vertex29 [label = "Send Mobile App Notification"]
+esg1_vertex30 [label = "]"]
+}

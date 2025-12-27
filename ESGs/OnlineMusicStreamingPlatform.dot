@@ -1,0 +1,99 @@
+digraph G {
+rankdir = LR
+label = "MusicStreaming";
+
+// Edges (event pairs)
+esg1_vertex1 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex3;
+esg1_vertex3 -> esg1_vertex4;
+esg1_vertex4 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex4;
+
+esg1_vertex4 -> esg1_vertex5;
+esg1_vertex5 -> esg1_vertex6;
+esg1_vertex6 -> esg1_vertex7;
+esg1_vertex6 -> esg1_vertex13;
+esg1_vertex6 -> esg1_vertex11;
+
+esg1_vertex7 -> esg1_vertex8;
+esg1_vertex8 -> esg1_vertex7;
+esg1_vertex7 -> esg1_vertex9;
+esg1_vertex9 -> esg1_vertex7;
+esg1_vertex7 -> esg1_vertex10;
+esg1_vertex10 -> esg1_vertex7;
+
+esg1_vertex7 -> esg1_vertex11;
+esg1_vertex11 -> esg1_vertex7;
+
+esg1_vertex7 -> esg1_vertex15;
+esg1_vertex15 -> esg1_vertex7;
+
+esg1_vertex7 -> esg1_vertex19;
+esg1_vertex19 -> esg1_vertex7;
+
+esg1_vertex7 -> esg1_vertex16;
+esg1_vertex16 -> esg1_vertex7;
+
+esg1_vertex12 -> esg1_vertex13;
+esg1_vertex13 -> esg1_vertex7;
+esg1_vertex13 -> esg1_vertex4;
+esg1_vertex4 -> esg1_vertex12;
+
+esg1_vertex6 -> esg1_vertex11;
+esg1_vertex4 -> esg1_vertex12;
+
+esg1_vertex4 -> esg1_vertex14;
+esg1_vertex2 -> esg1_vertex14;
+esg1_vertex14 -> esg1_vertex7;
+esg1_vertex14 -> esg1_vertex4;
+esg1_vertex14 -> esg1_vertex6;
+
+esg1_vertex16 -> esg1_vertex17;
+esg1_vertex17 -> esg1_vertex18;
+esg1_vertex18 -> esg1_vertex8;
+esg1_vertex18 -> esg1_vertex9;
+esg1_vertex18 -> esg1_vertex10;
+esg1_vertex18 -> esg1_vertex4;
+
+esg1_vertex2 -> esg1_vertex20;
+esg1_vertex4 -> esg1_vertex20;
+esg1_vertex20 -> esg1_vertex7;
+esg1_vertex20 -> esg1_vertex15;
+esg1_vertex20 -> esg1_vertex19;
+esg1_vertex20 -> esg1_vertex4;
+
+esg1_vertex4 -> esg1_vertex21;
+esg1_vertex2 -> esg1_vertex21;
+esg1_vertex21 -> esg1_vertex22;
+esg1_vertex22 -> esg1_vertex2;
+
+esg1_vertex2 -> esg1_vertex23;
+esg1_vertex23 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex24;
+
+// Nodes (events)
+esg1_vertex1  [label = "["]
+esg1_vertex2  [label = "Open App Home"]
+esg1_vertex3  [label = "Sign In"]
+esg1_vertex4  [label = "Browse Home"]
+esg1_vertex5  [label = "Search Music"]
+esg1_vertex6  [label = "View Album"]
+esg1_vertex7  [label = "Play Track"]
+esg1_vertex8  [label = "Pause Track"]
+esg1_vertex9  [label = "Skip Track"]
+esg1_vertex10 [label = "Adjust Volume"]
+esg1_vertex11 [label = "Add To Queue"]
+esg1_vertex12 [label = "Create Playlist"]
+esg1_vertex13 [label = "Add To Playlist"]
+esg1_vertex14 [label = "View Recommendations"]
+esg1_vertex15 [label = "Like Track"]
+esg1_vertex16 [label = "Download Track"]
+esg1_vertex17 [label = "Toggle Offline Mode"]
+esg1_vertex18 [label = "Play Downloaded Track"]
+esg1_vertex19 [label = "Share Track"]
+esg1_vertex20 [label = "Open Friend Feed"]
+esg1_vertex21 [label = "View Subscription Options"]
+esg1_vertex22 [label = "Upgrade To Premium"]
+esg1_vertex23 [label = "Log Out"]
+esg1_vertex24 [label = "]"]
+}

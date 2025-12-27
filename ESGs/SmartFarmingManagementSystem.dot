@@ -1,0 +1,93 @@
+digraph G {
+rankdir = LR
+label = "Smart Farming Management System";
+
+esg1_vertex1 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex3;
+esg1_vertex3 -> esg1_vertex4;
+esg1_vertex4 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex25;
+esg1_vertex2 -> esg1_vertex5;
+esg1_vertex2 -> esg1_vertex6;
+esg1_vertex2 -> esg1_vertex7;
+esg1_vertex2 -> esg1_vertex8;
+esg1_vertex2 -> esg1_vertex9;
+esg1_vertex2 -> esg1_vertex10;
+esg1_vertex2 -> esg1_vertex23;
+esg1_vertex4 -> esg1_vertex5;
+esg1_vertex5 -> esg1_vertex11;
+esg1_vertex5 -> esg1_vertex12;
+esg1_vertex11 -> esg1_vertex5;
+esg1_vertex12 -> esg1_vertex5;
+esg1_vertex5 -> esg1_vertex9;
+esg1_vertex11 -> esg1_vertex9;
+esg1_vertex12 -> esg1_vertex9;
+esg1_vertex10 -> esg1_vertex9;
+esg1_vertex10 -> esg1_vertex24;
+esg1_vertex6 -> esg1_vertex13;
+esg1_vertex6 -> esg1_vertex14;
+esg1_vertex6 -> esg1_vertex21;
+esg1_vertex13 -> esg1_vertex22;
+esg1_vertex13 -> esg1_vertex24;
+esg1_vertex21 -> esg1_vertex22;
+esg1_vertex22 -> esg1_vertex6;
+esg1_vertex22 -> esg1_vertex24;
+esg1_vertex7 -> esg1_vertex15;
+esg1_vertex15 -> esg1_vertex7;
+esg1_vertex15 -> esg1_vertex24;
+esg1_vertex8 -> esg1_vertex16;
+esg1_vertex16 -> esg1_vertex17;
+esg1_vertex17 -> esg1_vertex8;
+esg1_vertex17 -> esg1_vertex24;
+esg1_vertex9 -> esg1_vertex18;
+esg1_vertex9 -> esg1_vertex20;
+esg1_vertex18 -> esg1_vertex9;
+esg1_vertex20 -> esg1_vertex9;
+esg1_vertex2 -> esg1_vertex23;
+esg1_vertex23 -> esg1_vertex19;
+esg1_vertex19 -> esg1_vertex23;
+esg1_vertex19 -> esg1_vertex24;
+esg1_vertex5  -> esg1_vertex24;
+esg1_vertex6  -> esg1_vertex24;
+esg1_vertex7  -> esg1_vertex24;
+esg1_vertex8  -> esg1_vertex24;
+esg1_vertex9  -> esg1_vertex24;
+esg1_vertex11 -> esg1_vertex24;
+esg1_vertex12 -> esg1_vertex24;
+esg1_vertex13 -> esg1_vertex24;
+esg1_vertex14 -> esg1_vertex24;
+esg1_vertex16 -> esg1_vertex24;
+esg1_vertex18 -> esg1_vertex24;
+esg1_vertex19 -> esg1_vertex24;
+esg1_vertex20 -> esg1_vertex24;
+esg1_vertex21 -> esg1_vertex24;
+esg1_vertex22 -> esg1_vertex24;
+esg1_vertex23 -> esg1_vertex24;
+esg1_vertex24 -> esg1_vertex2;
+
+esg1_vertex1  [label = "["]
+esg1_vertex2  [label = "Open Farm Dashboard"]
+esg1_vertex3  [label = "Open Field Selection"]
+esg1_vertex4  [label = "Select Field"]
+esg1_vertex5  [label = "Open Sensor Overview"]
+esg1_vertex6  [label = "Open Irrigation Panel"]
+esg1_vertex7  [label = "Open Fertilizer Panel"]
+esg1_vertex8  [label = "Open Drone Panel"]
+esg1_vertex9  [label = "Open Analytics Panel"]
+esg1_vertex10 [label = "Open Weather Panel"]
+esg1_vertex11 [label = "View Soil Moisture"]
+esg1_vertex12 [label = "View Soil Nutrients"]
+esg1_vertex13 [label = "Schedule Irrigation"]
+esg1_vertex14 [label = "Adjust Irrigation Thresholds"]
+esg1_vertex15 [label = "Apply Fertilizer Plan"]
+esg1_vertex16 [label = "Launch Drone Scan"]
+esg1_vertex17 [label = "View Drone Imagery"]
+esg1_vertex18 [label = "Generate Yield Report"]
+esg1_vertex19 [label = "Acknowledge Alert"]
+esg1_vertex20 [label = "Export Data"]
+esg1_vertex21 [label = "Manual Irrigation Override"]
+esg1_vertex22 [label = "Stop Irrigation"]
+esg1_vertex23 [label = "Open Alerts Panel"]
+esg1_vertex24 [label = "Return to Dashboard"]
+esg1_vertex25 [label = "]"]
+}

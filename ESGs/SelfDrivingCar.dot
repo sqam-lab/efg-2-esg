@@ -1,0 +1,55 @@
+digraph G {
+rankdir = LR
+label = "Self-Driving Car ESG";
+esg1_vertex0 -> esg1_vertex1;
+esg1_vertex1 -> esg1_vertex2;
+esg1_vertex1 -> esg1_vertex3;
+esg1_vertex2 -> esg1_vertex4;
+esg1_vertex2 -> esg1_vertex5;
+esg1_vertex3 -> esg1_vertex4;
+esg1_vertex3 -> esg1_vertex5;
+esg1_vertex4 -> esg1_vertex6;
+esg1_vertex4 -> esg1_vertex8;
+esg1_vertex4 -> esg1_vertex9;
+esg1_vertex5 -> esg1_vertex12;
+esg1_vertex5 -> esg1_vertex13;
+esg1_vertex6 -> esg1_vertex7;
+esg1_vertex7 -> esg1_vertex6;
+esg1_vertex6 -> esg1_vertex8;
+esg1_vertex6 -> esg1_vertex9;
+esg1_vertex8 -> esg1_vertex6;
+esg1_vertex9 -> esg1_vertex6;
+esg1_vertex7 -> esg1_vertex16;
+esg1_vertex8 -> esg1_vertex10;
+esg1_vertex9 -> esg1_vertex10;
+esg1_vertex10 -> esg1_vertex11;
+esg1_vertex11 -> esg1_vertex6;
+esg1_vertex6 -> esg1_vertex14;
+esg1_vertex12 -> esg1_vertex14;
+esg1_vertex13 -> esg1_vertex14;
+esg1_vertex14 -> esg1_vertex15;
+esg1_vertex15 -> esg1_vertex17;
+esg1_vertex13 -> esg1_vertex16;
+esg1_vertex12 -> esg1_vertex16;
+esg1_vertex16 -> esg1_vertex17;
+esg1_vertex17 -> esg1_vertex18;
+esg1_vertex0 [label = "["]
+esg1_vertex1 [label = "BeginJourney"]
+esg1_vertex2 [label = "Ignite Gas Engine"]
+esg1_vertex3 [label = "Start Electric Motor"]
+esg1_vertex4 [label = "Select Manual Mode"]
+esg1_vertex5 [label = "Select Autonomous Mode"]
+esg1_vertex6 [label = "Accelerate"]
+esg1_vertex7 [label = "Decelerate"]
+esg1_vertex8 [label = "Turn Left"]
+esg1_vertex9 [label = "Turn Right"]
+esg1_vertex10 [label = "Lane Detected"]
+esg1_vertex11 [label = "Lane Correction"]
+esg1_vertex12 [label = "Autosteer"]
+esg1_vertex13 [label = "Cruise Control"]
+esg1_vertex14 [label = "Obstacle Detected"]
+esg1_vertex15 [label = "Emergency Brake"]
+esg1_vertex16 [label = "Park"]
+esg1_vertex17 [label = "Stop Engine"]
+esg1_vertex18 [label = "]"]
+}

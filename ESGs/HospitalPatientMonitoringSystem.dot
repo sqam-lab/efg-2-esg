@@ -1,0 +1,68 @@
+digraph G {
+rankdir = LR
+label = "Hospital Patient Monitoring System";
+
+esg1_vertex1 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex3;
+esg1_vertex2 -> esg1_vertex22;
+esg1_vertex3 -> esg1_vertex4;
+esg1_vertex3 -> esg1_vertex5;
+esg1_vertex4 -> esg1_vertex6;
+esg1_vertex5 -> esg1_vertex20;
+esg1_vertex20 -> esg1_vertex6;
+esg1_vertex6 -> esg1_vertex8;
+esg1_vertex6 -> esg1_vertex9;
+esg1_vertex6 -> esg1_vertex10;
+esg1_vertex6 -> esg1_vertex11;
+esg1_vertex6 -> esg1_vertex12;
+esg1_vertex8 -> esg1_vertex12;
+esg1_vertex9 -> esg1_vertex12;
+esg1_vertex10 -> esg1_vertex12;
+esg1_vertex11 -> esg1_vertex12;
+esg1_vertex12 -> esg1_vertex6;
+esg1_vertex12 -> esg1_vertex18;
+esg1_vertex12 -> esg1_vertex13;
+esg1_vertex12 -> esg1_vertex17;
+esg1_vertex13 -> esg1_vertex14;
+esg1_vertex13 -> esg1_vertex15;
+esg1_vertex13 -> esg1_vertex16;
+esg1_vertex14 -> esg1_vertex12;
+esg1_vertex15 -> esg1_vertex24;
+esg1_vertex16 -> esg1_vertex24;
+esg1_vertex17 -> esg1_vertex21;
+esg1_vertex17 -> esg1_vertex24;
+esg1_vertex20 -> esg1_vertex17;
+esg1_vertex21 -> esg1_vertex18;
+esg1_vertex18 -> esg1_vertex19;
+esg1_vertex19 -> esg1_vertex24;
+esg1_vertex22 -> esg1_vertex23;
+esg1_vertex23 -> esg1_vertex2;
+esg1_vertex24 -> esg1_vertex7;
+esg1_vertex7 -> esg1_vertex25;
+
+esg1_vertex1 [label = "["]
+esg1_vertex2 [label = "Open Monitoring Dashboard"]
+esg1_vertex3 [label = "Select Patient"]
+esg1_vertex4 [label = "Select Bedside Monitor"]
+esg1_vertex5 [label = "Select Remote Monitor"]
+esg1_vertex6 [label = "Start Session"]
+esg1_vertex7 [label = "Stop Session"]
+esg1_vertex8 [label = "Read Heart Rate"]
+esg1_vertex9 [label = "Read Blood Pressure"]
+esg1_vertex10 [label = "Read SpO2"]
+esg1_vertex11 [label = "Read Respiratory Rate"]
+esg1_vertex12 [label = "Evaluate Vitals"]
+esg1_vertex13 [label = "Trigger Alert"]
+esg1_vertex14 [label = "Acknowledge Alert"]
+esg1_vertex15 [label = "Escalate to Rapid Response"]
+esg1_vertex16 [label = "Escalate to Code Blue"]
+esg1_vertex17 [label = "Notify Remote Doctor"]
+esg1_vertex18 [label = "Open Patient EHR"]
+esg1_vertex19 [label = "Write Vitals to EHR"]
+esg1_vertex20 [label = "Encrypt Transmission"]
+esg1_vertex21 [label = "Decrypt Data"]
+esg1_vertex22 [label = "Open Trend Charts"]
+esg1_vertex23 [label = "Adjust Alert Thresholds"]
+esg1_vertex24 [label = "Log Event Audit"]
+esg1_vertex25 [label = "]"]
+}

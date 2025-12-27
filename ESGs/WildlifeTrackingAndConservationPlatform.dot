@@ -1,0 +1,93 @@
+digraph G {
+rankdir = LR
+label = "Wildlife Tracking and Conservation Platform";
+
+esg1_vertex18 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex19;
+
+esg1_vertex2 -> esg1_vertex3;
+esg1_vertex3 -> esg1_vertex4;
+esg1_vertex4 -> esg1_vertex2;
+
+esg1_vertex2 -> esg1_vertex5;
+esg1_vertex5 -> esg1_vertex2;
+esg1_vertex5 -> esg1_vertex6;
+esg1_vertex6 -> esg1_vertex5;
+
+esg1_vertex6 -> esg1_vertex7;
+esg1_vertex7 -> esg1_vertex8;
+esg1_vertex8 -> esg1_vertex6;
+
+esg1_vertex2 -> esg1_vertex9;
+esg1_vertex9 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex10;
+esg1_vertex10 -> esg1_vertex2;
+
+esg1_vertex4 -> esg1_vertex9;
+esg1_vertex4 -> esg1_vertex10;
+esg1_vertex9 -> esg1_vertex4;
+esg1_vertex10 -> esg1_vertex4;
+
+esg1_vertex2 -> esg1_vertex11;
+esg1_vertex11 -> esg1_vertex2;
+esg1_vertex11 -> esg1_vertex12;
+esg1_vertex11 -> esg1_vertex13;
+esg1_vertex12 -> esg1_vertex14;
+esg1_vertex13 -> esg1_vertex14;
+esg1_vertex14 -> esg1_vertex2;
+
+esg1_vertex2 -> esg1_vertex15;
+esg1_vertex15 -> esg1_vertex16;
+esg1_vertex16 -> esg1_vertex2;
+
+esg1_vertex2 -> esg1_vertex17;
+esg1_vertex17 -> esg1_vertex6;
+
+esg1_vertex2 -> esg1_vertex20;
+esg1_vertex2 -> esg1_vertex21;
+esg1_vertex2 -> esg1_vertex22;
+esg1_vertex20 -> esg1_vertex7;
+esg1_vertex21 -> esg1_vertex7;
+esg1_vertex22 -> esg1_vertex17;
+
+esg1_vertex2 -> esg1_vertex23;
+esg1_vertex23 -> esg1_vertex2;
+esg1_vertex7 -> esg1_vertex23;
+esg1_vertex13 -> esg1_vertex23;
+
+esg1_vertex2 -> esg1_vertex24;
+esg1_vertex24 -> esg1_vertex2;
+
+esg1_vertex2 -> esg1_vertex25;
+esg1_vertex25 -> esg1_vertex26;
+esg1_vertex26 -> esg1_vertex27;
+esg1_vertex27 -> esg1_vertex25;
+esg1_vertex25 -> esg1_vertex2;
+
+esg1_vertex2  [label = "Open Dashboard"]
+esg1_vertex3  [label = "Select Reserve"]
+esg1_vertex4  [label = "View Map"]
+esg1_vertex5  [label = "Open Animal List"]
+esg1_vertex6  [label = "Open Animal Profile"]
+esg1_vertex7  [label = "Start Live GPS"]
+esg1_vertex8  [label = "Stop Live GPS"]
+esg1_vertex9  [label = "Open Heatmap View"]
+esg1_vertex10 [label = "Open Time Series View"]
+esg1_vertex11 [label = "Configure Alert Rules"]
+esg1_vertex12 [label = "Poaching Alert Triggered"]
+esg1_vertex13 [label = "Environmental Alert Triggered"]
+esg1_vertex14 [label = "Acknowledge Alert"]
+esg1_vertex15 [label = "Open Migration Analysis"]
+esg1_vertex16 [label = "Run Migration Prediction"]
+esg1_vertex17 [label = "Species Identification from Camera"]
+esg1_vertex18 [label = "["]
+esg1_vertex19 [label = "]"]
+esg1_vertex20 [label = "Switch to Drone Tracking"]
+esg1_vertex21 [label = "Switch to Collar Tracking"]
+esg1_vertex22 [label = "Switch to Camera Trap Tracking"]
+esg1_vertex23 [label = "Open Sensor Health View"]
+esg1_vertex24 [label = "Request Data Export"]
+esg1_vertex25 [label = "Open Patrol Route View"]
+esg1_vertex26 [label = "Assign Patrol Route"]
+esg1_vertex27 [label = "Confirm Patrol Assignment"]
+}

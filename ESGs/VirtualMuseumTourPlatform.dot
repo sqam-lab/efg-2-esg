@@ -1,0 +1,73 @@
+digraph G {
+rankdir = LR
+label = "Virtual Museum Tour Platform";
+
+esg1_vertex25 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex26;
+esg1_vertex2 -> esg1_vertex3;
+esg1_vertex3 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex4;
+esg1_vertex4 -> esg1_vertex5;
+esg1_vertex5 -> esg1_vertex6;
+esg1_vertex6 -> esg1_vertex7;
+esg1_vertex7 -> esg1_vertex8;
+esg1_vertex8 -> esg1_vertex5;
+esg1_vertex8 -> esg1_vertex9;
+esg1_vertex9 -> esg1_vertex10;
+esg1_vertex10 -> esg1_vertex9;
+esg1_vertex9 -> esg1_vertex11;
+esg1_vertex11 -> esg1_vertex9;
+esg1_vertex8 -> esg1_vertex12;
+esg1_vertex12 -> esg1_vertex13;
+esg1_vertex13 -> esg1_vertex8;
+esg1_vertex13 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex14;
+esg1_vertex14 -> esg1_vertex5;
+esg1_vertex14 -> esg1_vertex15;
+esg1_vertex15 -> esg1_vertex16;
+esg1_vertex16 -> esg1_vertex15;
+esg1_vertex16 -> esg1_vertex5;
+esg1_vertex8 -> esg1_vertex17;
+esg1_vertex17 -> esg1_vertex18;
+esg1_vertex18 -> esg1_vertex17;
+esg1_vertex2 -> esg1_vertex19;
+esg1_vertex19 -> esg1_vertex20;
+esg1_vertex20 -> esg1_vertex21;
+esg1_vertex21 -> esg1_vertex19;
+esg1_vertex3 -> esg1_vertex22;
+esg1_vertex22 -> esg1_vertex23;
+esg1_vertex23 -> esg1_vertex22;
+esg1_vertex23 -> esg1_vertex24;
+esg1_vertex24 -> esg1_vertex2;
+esg1_vertex5 -> esg1_vertex3;
+esg1_vertex19 -> esg1_vertex3;
+esg1_vertex22 -> esg1_vertex2;
+esg1_vertex17 -> esg1_vertex8;
+esg1_vertex9 -> esg1_vertex8;
+
+esg1_vertex2 [label = "Open Platform Home"]
+esg1_vertex3 [label = "Open Main Menu"]
+esg1_vertex4 [label = "Select Museum"]
+esg1_vertex5 [label = "Enter 3D Gallery"]
+esg1_vertex6 [label = "Rotate View"]
+esg1_vertex7 [label = "Zoom Exhibit"]
+esg1_vertex8 [label = "Open Exhibit Details"]
+esg1_vertex9 [label = "Play Audio Guide"]
+esg1_vertex10 [label = "Change Audio Language"]
+esg1_vertex11 [label = "Toggle Subtitles"]
+esg1_vertex12 [label = "Bookmark Exhibit"]
+esg1_vertex13 [label = "Open Bookmarks"]
+esg1_vertex14 [label = "Start Guided Tour"]
+esg1_vertex15 [label = "Pause Guided Tour"]
+esg1_vertex16 [label = "Resume Guided Tour"]
+esg1_vertex17 [label = "Start AR Overlay"]
+esg1_vertex18 [label = "Toggle AR Info Layer"]
+esg1_vertex19 [label = "Join Live Curator Q&A"]
+esg1_vertex20 [label = "Submit Question"]
+esg1_vertex21 [label = "View Q&A Transcript"]
+esg1_vertex22 [label = "Open Settings"]
+esg1_vertex23 [label = "Change Display Mode"]
+esg1_vertex24 [label = "Kids Mode Home"]
+esg1_vertex25 [label = "["]
+esg1_vertex26 [label = "]"]
+}

@@ -1,0 +1,70 @@
+digraph G {
+rankdir = LR
+label = "Autonomous Drone Delivery System";
+esg1_vertex25 -> esg1_vertex2;
+esg1_vertex2 -> esg1_vertex26;
+esg1_vertex2 -> esg1_vertex3;
+esg1_vertex3 -> esg1_vertex2;
+esg1_vertex3 -> esg1_vertex4;
+esg1_vertex4 -> esg1_vertex5;
+esg1_vertex4 -> esg1_vertex6;
+esg1_vertex4 -> esg1_vertex7;
+esg1_vertex4 -> esg1_vertex8;
+esg1_vertex5 -> esg1_vertex9;
+esg1_vertex6 -> esg1_vertex9;
+esg1_vertex7 -> esg1_vertex9;
+esg1_vertex8 -> esg1_vertex9;
+esg1_vertex9 -> esg1_vertex10;
+esg1_vertex10 -> esg1_vertex11;
+esg1_vertex11 -> esg1_vertex12;
+esg1_vertex12 -> esg1_vertex13;
+esg1_vertex13 -> esg1_vertex14;
+esg1_vertex13 -> esg1_vertex15;
+esg1_vertex13 -> esg1_vertex16;
+esg1_vertex13 -> esg1_vertex21;
+esg1_vertex13 -> esg1_vertex20;
+esg1_vertex14 -> esg1_vertex13;
+esg1_vertex15 -> esg1_vertex13;
+esg1_vertex16 -> esg1_vertex13;
+esg1_vertex21 -> esg1_vertex13;
+esg1_vertex13 -> esg1_vertex17;
+esg1_vertex20 -> esg1_vertex17;
+esg1_vertex17 -> esg1_vertex18;
+esg1_vertex18 -> esg1_vertex19;
+esg1_vertex19 -> esg1_vertex20;
+esg1_vertex20 -> esg1_vertex23;
+esg1_vertex23 -> esg1_vertex24;
+esg1_vertex24 -> esg1_vertex2;
+esg1_vertex13 -> esg1_vertex22;
+esg1_vertex20 -> esg1_vertex22;
+esg1_vertex11 -> esg1_vertex22;
+esg1_vertex12 -> esg1_vertex22;
+esg1_vertex22 -> esg1_vertex24;
+esg1_vertex21 -> esg1_vertex20;
+
+esg1_vertex2 [label = "Idle"]
+esg1_vertex3 [label = "Open Mission Console"]
+esg1_vertex4 [label = "Configure Mission"]
+esg1_vertex5 [label = "Select Payload Type"]
+esg1_vertex6 [label = "Select Navigation Mode"]
+esg1_vertex7 [label = "Select Obstacle Avoidance Profile"]
+esg1_vertex8 [label = "Select Weather Profile"]
+esg1_vertex9 [label = "Preflight Check"]
+esg1_vertex10 [label = "Arm Motors"]
+esg1_vertex11 [label = "Takeoff"]
+esg1_vertex12 [label = "Ascend to Cruise Altitude"]
+esg1_vertex13 [label = "Navigate to Delivery Zone"]
+esg1_vertex14 [label = "Avoid Static Obstacle"]
+esg1_vertex15 [label = "Avoid Dynamic Obstacle"]
+esg1_vertex16 [label = "Adjust Route for Weather"]
+esg1_vertex17 [label = "Descend to Drop Altitude"]
+esg1_vertex18 [label = "Drop Package"]
+esg1_vertex19 [label = "Confirm Delivery"]
+esg1_vertex20 [label = "Return to Base"]
+esg1_vertex21 [label = "Battery Saving Reroute"]
+esg1_vertex22 [label = "Emergency Land"]
+esg1_vertex23 [label = "Land at Base"]
+esg1_vertex24 [label = "Upload Flight Log"]
+esg1_vertex25 [label = "["]
+esg1_vertex26 [label = "]"]
+}
